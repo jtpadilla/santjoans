@@ -1,0 +1,11 @@
+# IDE
+.idea/
+*.iml
+
+# Node
+santjoans-web/node_modules/
+santjoans-web/dist/
+
+# Vite cache
+santjoans-web/.vite/
+santjoans-web/node_modules/.tmp/

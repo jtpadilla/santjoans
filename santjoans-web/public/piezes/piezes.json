@@ -1,0 +1,6034 @@
+[
+  {
+    "name": "marmol1.jpg",
+    "x": "2",
+    "y": "1",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "marmol2.jpg",
+    "x": "1",
+    "y": "2",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "marmol3.jpg",
+    "x": "3",
+    "y": "2",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "marmol4.jpg",
+    "x": "2",
+    "y": "3",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "marmol2.jpg",
+    "x": "52",
+    "y": "1",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "marmol1.jpg",
+    "x": "51",
+    "y": "2",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "marmol4.jpg",
+    "x": "53",
+    "y": "2",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "marmol3.jpg",
+    "x": "52",
+    "y": "3",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "marmol3.jpg",
+    "x": "2",
+    "y": "23",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "marmol2.jpg",
+    "x": "1",
+    "y": "24",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "marmol1.jpg",
+    "x": "3",
+    "y": "24",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "marmol4.jpg",
+    "x": "2",
+    "y": "25",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "marmol4.jpg",
+    "x": "52",
+    "y": "23",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "marmol3.jpg",
+    "x": "51",
+    "y": "24",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "marmol2.jpg",
+    "x": "53",
+    "y": "24",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "marmol1.jpg",
+    "x": "52",
+    "y": "25",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor2.jpg",
+    "x": "5",
+    "y": "4",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor1.jpg",
+    "x": "4",
+    "y": "5",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor2.jpg",
+    "x": "4",
+    "y": "21",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor5.jpg",
+    "x": "5",
+    "y": "22",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor6.jpg",
+    "x": "49",
+    "y": "4",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor3.jpg",
+    "x": "50",
+    "y": "5",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor6.jpg",
+    "x": "13",
+    "y": "22",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor7.jpg",
+    "x": "15",
+    "y": "22",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor9.jpg",
+    "x": "17",
+    "y": "22",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor3.jpg",
+    "x": "19",
+    "y": "22",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor6.jpg",
+    "x": "21",
+    "y": "22",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor1.jpg",
+    "x": "23",
+    "y": "22",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor4.jpg",
+    "x": "25",
+    "y": "22",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor3.jpg",
+    "x": "27",
+    "y": "22",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor1.jpg",
+    "x": "29",
+    "y": "22",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor5.jpg",
+    "x": "31",
+    "y": "22",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor4.jpg",
+    "x": "33",
+    "y": "22",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor1.jpg",
+    "x": "35",
+    "y": "22",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor8.jpg",
+    "x": "37",
+    "y": "22",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor9.jpg",
+    "x": "39",
+    "y": "22",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor6.jpg",
+    "x": "41",
+    "y": "22",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor3.jpg",
+    "x": "43",
+    "y": "22",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor6.jpg",
+    "x": "45",
+    "y": "22",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor8.jpg",
+    "x": "47",
+    "y": "22",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor3.jpg",
+    "x": "49",
+    "y": "22",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor4.jpg",
+    "x": "26",
+    "y": "21",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor7.jpg",
+    "x": "28",
+    "y": "21",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor9.jpg",
+    "x": "30",
+    "y": "21",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor6.jpg",
+    "x": "32",
+    "y": "21",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor8.jpg",
+    "x": "34",
+    "y": "21",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor5.jpg",
+    "x": "36",
+    "y": "21",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor4.jpg",
+    "x": "38",
+    "y": "21",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor0.jpg",
+    "x": "40",
+    "y": "21",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor4.jpg",
+    "x": "42",
+    "y": "21",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor6.jpg",
+    "x": "44",
+    "y": "21",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor7.jpg",
+    "x": "46",
+    "y": "21",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor8.jpg",
+    "x": "48",
+    "y": "21",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor5.jpg",
+    "x": "50",
+    "y": "21",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor9.jpg",
+    "x": "0",
+    "y": "1",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor1.jpg",
+    "x": "0",
+    "y": "3",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor8.jpg",
+    "x": "0",
+    "y": "5",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor5.jpg",
+    "x": "0",
+    "y": "7",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor8.jpg",
+    "x": "0",
+    "y": "9",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor6.jpg",
+    "x": "0",
+    "y": "11",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor5.jpg",
+    "x": "0",
+    "y": "13",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor3.jpg",
+    "x": "0",
+    "y": "15",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor3.jpg",
+    "x": "0",
+    "y": "17",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor6.jpg",
+    "x": "0",
+    "y": "19",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor1.jpg",
+    "x": "0",
+    "y": "21",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor4.jpg",
+    "x": "0",
+    "y": "23",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor0.jpg",
+    "x": "0",
+    "y": "25",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor5.jpg",
+    "x": "1",
+    "y": "0",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor4.jpg",
+    "x": "1",
+    "y": "4",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor2.jpg",
+    "x": "1",
+    "y": "6",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor5.jpg",
+    "x": "1",
+    "y": "8",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor5.jpg",
+    "x": "1",
+    "y": "10",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor6.jpg",
+    "x": "1",
+    "y": "12",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor4.jpg",
+    "x": "1",
+    "y": "14",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor1.jpg",
+    "x": "1",
+    "y": "16",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor5.jpg",
+    "x": "1",
+    "y": "18",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor9.jpg",
+    "x": "1",
+    "y": "20",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor9.jpg",
+    "x": "1",
+    "y": "22",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor7.jpg",
+    "x": "1",
+    "y": "26",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor2.jpg",
+    "x": "2",
+    "y": "5",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor9.jpg",
+    "x": "2",
+    "y": "7",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor7.jpg",
+    "x": "2",
+    "y": "9",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor8.jpg",
+    "x": "2",
+    "y": "11",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor7.jpg",
+    "x": "2",
+    "y": "13",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor7.jpg",
+    "x": "2",
+    "y": "15",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor0.jpg",
+    "x": "2",
+    "y": "17",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor3.jpg",
+    "x": "2",
+    "y": "19",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor9.jpg",
+    "x": "2",
+    "y": "21",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor3.jpg",
+    "x": "3",
+    "y": "0",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor2.jpg",
+    "x": "3",
+    "y": "4",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor4.jpg",
+    "x": "3",
+    "y": "6",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor5.jpg",
+    "x": "3",
+    "y": "8",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor9.jpg",
+    "x": "3",
+    "y": "10",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor6.jpg",
+    "x": "3",
+    "y": "12",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor1.jpg",
+    "x": "3",
+    "y": "14",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor1.jpg",
+    "x": "3",
+    "y": "16",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor6.jpg",
+    "x": "3",
+    "y": "18",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor8.jpg",
+    "x": "3",
+    "y": "20",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor2.jpg",
+    "x": "3",
+    "y": "22",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor6.jpg",
+    "x": "3",
+    "y": "26",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor3.jpg",
+    "x": "4",
+    "y": "1",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor0.jpg",
+    "x": "4",
+    "y": "3",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor9.jpg",
+    "x": "4",
+    "y": "23",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor9.jpg",
+    "x": "4",
+    "y": "25",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor0.jpg",
+    "x": "5",
+    "y": "0",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor2.jpg",
+    "x": "5",
+    "y": "2",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor5.jpg",
+    "x": "5",
+    "y": "24",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor1.jpg",
+    "x": "5",
+    "y": "26",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor7.jpg",
+    "x": "6",
+    "y": "1",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor4.jpg",
+    "x": "6",
+    "y": "3",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor0.jpg",
+    "x": "6",
+    "y": "23",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor5.jpg",
+    "x": "6",
+    "y": "25",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor3.jpg",
+    "x": "7",
+    "y": "0",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor8.jpg",
+    "x": "7",
+    "y": "2",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor8.jpg",
+    "x": "7",
+    "y": "24",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor0.jpg",
+    "x": "7",
+    "y": "26",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor0.jpg",
+    "x": "8",
+    "y": "1",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor6.jpg",
+    "x": "8",
+    "y": "3",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor3.jpg",
+    "x": "8",
+    "y": "23",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor1.jpg",
+    "x": "8",
+    "y": "25",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor7.jpg",
+    "x": "9",
+    "y": "0",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor8.jpg",
+    "x": "9",
+    "y": "2",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor0.jpg",
+    "x": "9",
+    "y": "24",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor3.jpg",
+    "x": "9",
+    "y": "26",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor9.jpg",
+    "x": "10",
+    "y": "1",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor5.jpg",
+    "x": "10",
+    "y": "3",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor2.jpg",
+    "x": "10",
+    "y": "23",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor7.jpg",
+    "x": "10",
+    "y": "25",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor3.jpg",
+    "x": "11",
+    "y": "0",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor4.jpg",
+    "x": "11",
+    "y": "2",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor1.jpg",
+    "x": "11",
+    "y": "24",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor3.jpg",
+    "x": "11",
+    "y": "26",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor4.jpg",
+    "x": "12",
+    "y": "1",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor2.jpg",
+    "x": "12",
+    "y": "3",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor9.jpg",
+    "x": "12",
+    "y": "23",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor0.jpg",
+    "x": "12",
+    "y": "25",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor8.jpg",
+    "x": "13",
+    "y": "0",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor0.jpg",
+    "x": "13",
+    "y": "2",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor8.jpg",
+    "x": "13",
+    "y": "24",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor0.jpg",
+    "x": "13",
+    "y": "26",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor7.jpg",
+    "x": "14",
+    "y": "1",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor4.jpg",
+    "x": "14",
+    "y": "3",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor6.jpg",
+    "x": "14",
+    "y": "23",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor1.jpg",
+    "x": "14",
+    "y": "25",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor2.jpg",
+    "x": "15",
+    "y": "0",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor0.jpg",
+    "x": "15",
+    "y": "2",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor9.jpg",
+    "x": "15",
+    "y": "24",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor2.jpg",
+    "x": "15",
+    "y": "26",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor1.jpg",
+    "x": "16",
+    "y": "1",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor4.jpg",
+    "x": "16",
+    "y": "3",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor6.jpg",
+    "x": "16",
+    "y": "23",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor3.jpg",
+    "x": "16",
+    "y": "25",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor9.jpg",
+    "x": "17",
+    "y": "0",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor7.jpg",
+    "x": "17",
+    "y": "2",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor3.jpg",
+    "x": "17",
+    "y": "24",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor0.jpg",
+    "x": "17",
+    "y": "26",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor9.jpg",
+    "x": "18",
+    "y": "1",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor9.jpg",
+    "x": "18",
+    "y": "3",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor3.jpg",
+    "x": "18",
+    "y": "23",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor7.jpg",
+    "x": "18",
+    "y": "25",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor9.jpg",
+    "x": "19",
+    "y": "0",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor1.jpg",
+    "x": "19",
+    "y": "2",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor2.jpg",
+    "x": "19",
+    "y": "24",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor9.jpg",
+    "x": "19",
+    "y": "26",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor6.jpg",
+    "x": "20",
+    "y": "1",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor8.jpg",
+    "x": "20",
+    "y": "3",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor1.jpg",
+    "x": "20",
+    "y": "23",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor8.jpg",
+    "x": "20",
+    "y": "25",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor4.jpg",
+    "x": "21",
+    "y": "0",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor0.jpg",
+    "x": "21",
+    "y": "2",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor1.jpg",
+    "x": "21",
+    "y": "24",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor1.jpg",
+    "x": "21",
+    "y": "26",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor6.jpg",
+    "x": "22",
+    "y": "1",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor4.jpg",
+    "x": "22",
+    "y": "3",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor3.jpg",
+    "x": "22",
+    "y": "23",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor9.jpg",
+    "x": "22",
+    "y": "25",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor4.jpg",
+    "x": "23",
+    "y": "0",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor8.jpg",
+    "x": "23",
+    "y": "2",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor2.jpg",
+    "x": "23",
+    "y": "24",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor4.jpg",
+    "x": "23",
+    "y": "26",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor3.jpg",
+    "x": "24",
+    "y": "1",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor1.jpg",
+    "x": "24",
+    "y": "3",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor0.jpg",
+    "x": "24",
+    "y": "23",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor1.jpg",
+    "x": "24",
+    "y": "25",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor8.jpg",
+    "x": "25",
+    "y": "0",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor0.jpg",
+    "x": "25",
+    "y": "2",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor3.jpg",
+    "x": "25",
+    "y": "24",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor8.jpg",
+    "x": "25",
+    "y": "26",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor6.jpg",
+    "x": "26",
+    "y": "1",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor2.jpg",
+    "x": "26",
+    "y": "3",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor7.jpg",
+    "x": "26",
+    "y": "23",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor4.jpg",
+    "x": "26",
+    "y": "25",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor3.jpg",
+    "x": "27",
+    "y": "0",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor3.jpg",
+    "x": "27",
+    "y": "2",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor3.jpg",
+    "x": "27",
+    "y": "24",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor1.jpg",
+    "x": "27",
+    "y": "26",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor0.jpg",
+    "x": "28",
+    "y": "1",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor6.jpg",
+    "x": "28",
+    "y": "3",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor3.jpg",
+    "x": "28",
+    "y": "23",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor7.jpg",
+    "x": "28",
+    "y": "25",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor2.jpg",
+    "x": "29",
+    "y": "0",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor4.jpg",
+    "x": "29",
+    "y": "2",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor8.jpg",
+    "x": "29",
+    "y": "24",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor5.jpg",
+    "x": "29",
+    "y": "26",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor6.jpg",
+    "x": "30",
+    "y": "1",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor9.jpg",
+    "x": "30",
+    "y": "3",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor9.jpg",
+    "x": "30",
+    "y": "23",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor4.jpg",
+    "x": "30",
+    "y": "25",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor3.jpg",
+    "x": "31",
+    "y": "0",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor6.jpg",
+    "x": "31",
+    "y": "2",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor4.jpg",
+    "x": "31",
+    "y": "24",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor5.jpg",
+    "x": "31",
+    "y": "26",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor3.jpg",
+    "x": "32",
+    "y": "1",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor5.jpg",
+    "x": "32",
+    "y": "3",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor8.jpg",
+    "x": "32",
+    "y": "23",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor5.jpg",
+    "x": "32",
+    "y": "25",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor7.jpg",
+    "x": "33",
+    "y": "0",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor1.jpg",
+    "x": "33",
+    "y": "2",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor7.jpg",
+    "x": "33",
+    "y": "24",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor2.jpg",
+    "x": "33",
+    "y": "26",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor1.jpg",
+    "x": "34",
+    "y": "1",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor9.jpg",
+    "x": "34",
+    "y": "3",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor0.jpg",
+    "x": "34",
+    "y": "23",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor5.jpg",
+    "x": "34",
+    "y": "25",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor8.jpg",
+    "x": "35",
+    "y": "0",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor8.jpg",
+    "x": "35",
+    "y": "2",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor5.jpg",
+    "x": "35",
+    "y": "24",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor2.jpg",
+    "x": "35",
+    "y": "26",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor5.jpg",
+    "x": "36",
+    "y": "1",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor3.jpg",
+    "x": "36",
+    "y": "3",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor5.jpg",
+    "x": "36",
+    "y": "23",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor3.jpg",
+    "x": "36",
+    "y": "25",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor5.jpg",
+    "x": "37",
+    "y": "0",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor2.jpg",
+    "x": "37",
+    "y": "2",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor4.jpg",
+    "x": "37",
+    "y": "24",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor7.jpg",
+    "x": "37",
+    "y": "26",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor5.jpg",
+    "x": "38",
+    "y": "1",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor7.jpg",
+    "x": "38",
+    "y": "3",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor4.jpg",
+    "x": "38",
+    "y": "23",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor9.jpg",
+    "x": "38",
+    "y": "25",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor9.jpg",
+    "x": "39",
+    "y": "0",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor7.jpg",
+    "x": "39",
+    "y": "2",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor6.jpg",
+    "x": "39",
+    "y": "24",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor5.jpg",
+    "x": "39",
+    "y": "26",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor8.jpg",
+    "x": "40",
+    "y": "1",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor2.jpg",
+    "x": "40",
+    "y": "3",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor7.jpg",
+    "x": "40",
+    "y": "23",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor7.jpg",
+    "x": "40",
+    "y": "25",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor9.jpg",
+    "x": "41",
+    "y": "0",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor1.jpg",
+    "x": "41",
+    "y": "2",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor6.jpg",
+    "x": "41",
+    "y": "24",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor2.jpg",
+    "x": "41",
+    "y": "26",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor8.jpg",
+    "x": "42",
+    "y": "1",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor0.jpg",
+    "x": "42",
+    "y": "3",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor1.jpg",
+    "x": "42",
+    "y": "23",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor9.jpg",
+    "x": "42",
+    "y": "25",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor1.jpg",
+    "x": "43",
+    "y": "0",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor6.jpg",
+    "x": "43",
+    "y": "2",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor4.jpg",
+    "x": "43",
+    "y": "24",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor7.jpg",
+    "x": "43",
+    "y": "26",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor3.jpg",
+    "x": "44",
+    "y": "1",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor0.jpg",
+    "x": "44",
+    "y": "3",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor9.jpg",
+    "x": "44",
+    "y": "23",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor5.jpg",
+    "x": "44",
+    "y": "25",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor8.jpg",
+    "x": "45",
+    "y": "0",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor8.jpg",
+    "x": "45",
+    "y": "2",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor7.jpg",
+    "x": "45",
+    "y": "24",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor8.jpg",
+    "x": "45",
+    "y": "26",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor8.jpg",
+    "x": "46",
+    "y": "1",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor1.jpg",
+    "x": "46",
+    "y": "3",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor8.jpg",
+    "x": "46",
+    "y": "23",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor6.jpg",
+    "x": "46",
+    "y": "25",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor0.jpg",
+    "x": "47",
+    "y": "0",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor2.jpg",
+    "x": "47",
+    "y": "2",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor0.jpg",
+    "x": "47",
+    "y": "24",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor0.jpg",
+    "x": "47",
+    "y": "26",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor1.jpg",
+    "x": "48",
+    "y": "1",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor4.jpg",
+    "x": "48",
+    "y": "3",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor2.jpg",
+    "x": "48",
+    "y": "23",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor4.jpg",
+    "x": "48",
+    "y": "25",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor3.jpg",
+    "x": "49",
+    "y": "0",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor7.jpg",
+    "x": "49",
+    "y": "2",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor9.jpg",
+    "x": "49",
+    "y": "24",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor5.jpg",
+    "x": "49",
+    "y": "26",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor9.jpg",
+    "x": "50",
+    "y": "1",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor6.jpg",
+    "x": "50",
+    "y": "3",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor3.jpg",
+    "x": "50",
+    "y": "23",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor0.jpg",
+    "x": "50",
+    "y": "25",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor1.jpg",
+    "x": "51",
+    "y": "0",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor0.jpg",
+    "x": "51",
+    "y": "4",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor1.jpg",
+    "x": "51",
+    "y": "6",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor6.jpg",
+    "x": "51",
+    "y": "8",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor5.jpg",
+    "x": "51",
+    "y": "10",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor8.jpg",
+    "x": "51",
+    "y": "12",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor1.jpg",
+    "x": "51",
+    "y": "14",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor5.jpg",
+    "x": "51",
+    "y": "16",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor4.jpg",
+    "x": "51",
+    "y": "18",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor5.jpg",
+    "x": "51",
+    "y": "20",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor0.jpg",
+    "x": "51",
+    "y": "22",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor3.jpg",
+    "x": "51",
+    "y": "26",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor9.jpg",
+    "x": "52",
+    "y": "5",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor6.jpg",
+    "x": "52",
+    "y": "7",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor3.jpg",
+    "x": "52",
+    "y": "9",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor3.jpg",
+    "x": "52",
+    "y": "11",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor8.jpg",
+    "x": "52",
+    "y": "13",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor9.jpg",
+    "x": "52",
+    "y": "15",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor2.jpg",
+    "x": "52",
+    "y": "17",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor9.jpg",
+    "x": "52",
+    "y": "19",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor6.jpg",
+    "x": "52",
+    "y": "21",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor7.jpg",
+    "x": "53",
+    "y": "0",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor1.jpg",
+    "x": "53",
+    "y": "4",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor4.jpg",
+    "x": "53",
+    "y": "6",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor7.jpg",
+    "x": "53",
+    "y": "8",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor2.jpg",
+    "x": "53",
+    "y": "10",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor7.jpg",
+    "x": "53",
+    "y": "12",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor8.jpg",
+    "x": "53",
+    "y": "14",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor6.jpg",
+    "x": "53",
+    "y": "16",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor5.jpg",
+    "x": "53",
+    "y": "18",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor4.jpg",
+    "x": "53",
+    "y": "20",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor2.jpg",
+    "x": "53",
+    "y": "22",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor4.jpg",
+    "x": "53",
+    "y": "26",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor9.jpg",
+    "x": "54",
+    "y": "1",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor2.jpg",
+    "x": "54",
+    "y": "3",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor4.jpg",
+    "x": "54",
+    "y": "5",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor4.jpg",
+    "x": "54",
+    "y": "7",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor8.jpg",
+    "x": "54",
+    "y": "9",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor9.jpg",
+    "x": "54",
+    "y": "11",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor0.jpg",
+    "x": "54",
+    "y": "13",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor0.jpg",
+    "x": "54",
+    "y": "15",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor8.jpg",
+    "x": "54",
+    "y": "17",
+    "miniature_rotation": "315",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor9.jpg",
+    "x": "54",
+    "y": "19",
+    "miniature_rotation": "135",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor9.jpg",
+    "x": "54",
+    "y": "21",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor8.jpg",
+    "x": "54",
+    "y": "23",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "flor2.jpg",
+    "x": "54",
+    "y": "25",
+    "miniature_rotation": "225",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "04_07_315.jpg",
+    "x": "4",
+    "y": "7",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "04_09_315.jpg",
+    "x": "4",
+    "y": "9",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "04_11_225.jpg",
+    "x": "4",
+    "y": "11",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "04_13_315.jpg",
+    "x": "4",
+    "y": "13",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "04_15_315.jpg",
+    "x": "4",
+    "y": "15",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "04_17_315.jpg",
+    "x": "4",
+    "y": "17",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "04_19_315.jpg",
+    "x": "4",
+    "y": "19",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "05_06_315.jpg",
+    "x": "5",
+    "y": "6",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "05_08_315.jpg",
+    "x": "5",
+    "y": "8",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "05_10_315.jpg",
+    "x": "5",
+    "y": "10",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "05_12_315.jpg",
+    "x": "5",
+    "y": "12",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "05_14_315.jpg",
+    "x": "5",
+    "y": "14",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "05_16_315.jpg",
+    "x": "5",
+    "y": "16",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "05_18_315.jpg",
+    "x": "5",
+    "y": "18",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "05_20_225.jpg",
+    "x": "5",
+    "y": "20",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "06_05_315.jpg",
+    "x": "6",
+    "y": "5",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "06_07_045.jpg",
+    "x": "6",
+    "y": "7",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "06_09_315.jpg",
+    "x": "6",
+    "y": "9",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "06_11_315.jpg",
+    "x": "6",
+    "y": "11",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "06_13_315.jpg",
+    "x": "6",
+    "y": "13",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "06_15_315.jpg",
+    "x": "6",
+    "y": "15",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "06_17_315.jpg",
+    "x": "6",
+    "y": "17",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "06_19_315.jpg",
+    "x": "6",
+    "y": "19",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "06_21_135.jpg",
+    "x": "6",
+    "y": "21",
+    "miniature_rotation": "45",
+    "detail_rotation": "135",
+    "class": "main"
+  },
+  {
+    "name": "07_04_315.jpg",
+    "x": "7",
+    "y": "4",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "07_06_315.jpg",
+    "x": "7",
+    "y": "6",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "07_08_315.jpg",
+    "x": "7",
+    "y": "8",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "07_10_315.jpg",
+    "x": "7",
+    "y": "10",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "07_12_315.jpg",
+    "x": "7",
+    "y": "12",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "07_14_315.jpg",
+    "x": "7",
+    "y": "14",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "07_16_315.jpg",
+    "x": "7",
+    "y": "16",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "07_18_315.jpg",
+    "x": "7",
+    "y": "18",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "07_20_045.jpg",
+    "x": "7",
+    "y": "20",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "07_22_135.jpg",
+    "x": "7",
+    "y": "22",
+    "miniature_rotation": "45",
+    "detail_rotation": "135",
+    "class": "main"
+  },
+  {
+    "name": "08_05_315.jpg",
+    "x": "8",
+    "y": "5",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "08_07_315.jpg",
+    "x": "8",
+    "y": "7",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "08_09_315.jpg",
+    "x": "8",
+    "y": "9",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "08_11_315.jpg",
+    "x": "8",
+    "y": "11",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "08_13_315.jpg",
+    "x": "8",
+    "y": "13",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "08_15_315.jpg",
+    "x": "8",
+    "y": "15",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "08_17_315.jpg",
+    "x": "8",
+    "y": "17",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "08_19_090.jpg",
+    "x": "8",
+    "y": "19",
+    "miniature_rotation": "45",
+    "detail_rotation": "90",
+    "class": "main"
+  },
+  {
+    "name": "08_21_225.jpg",
+    "x": "8",
+    "y": "21",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "09_04_315.jpg",
+    "x": "9",
+    "y": "4",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "09_06_225.jpg",
+    "x": "9",
+    "y": "6",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "09_08_315.jpg",
+    "x": "9",
+    "y": "8",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "09_10_315.jpg",
+    "x": "9",
+    "y": "10",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "09_12_315.jpg",
+    "x": "9",
+    "y": "12",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "09_14_315.jpg",
+    "x": "9",
+    "y": "14",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "09_16_225.jpg",
+    "x": "9",
+    "y": "16",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "09_18_045.jpg",
+    "x": "9",
+    "y": "18",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "09_20_315.jpg",
+    "x": "9",
+    "y": "20",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "09_22_045.jpg",
+    "x": "9",
+    "y": "22",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "10_05_315.jpg",
+    "x": "10",
+    "y": "5",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "10_07_315.jpg",
+    "x": "10",
+    "y": "7",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "10_09_315.jpg",
+    "x": "10",
+    "y": "9",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "10_11_315.jpg",
+    "x": "10",
+    "y": "11",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "10_13_315.jpg",
+    "x": "10",
+    "y": "13",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "10_15_045.jpg",
+    "x": "10",
+    "y": "15",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "10_17_045.jpg",
+    "x": "10",
+    "y": "17",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "10_19_315.jpg",
+    "x": "10",
+    "y": "19",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "10_21_315.jpg",
+    "x": "10",
+    "y": "21",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "11_04_315.jpg",
+    "x": "11",
+    "y": "4",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "11_06_315.jpg",
+    "x": "11",
+    "y": "6",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "11_08_315.jpg",
+    "x": "11",
+    "y": "8",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "11_10_315.jpg",
+    "x": "11",
+    "y": "10",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "11_12_315.jpg",
+    "x": "11",
+    "y": "12",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "11_14_315.jpg",
+    "x": "11",
+    "y": "14",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "11_16_315.jpg",
+    "x": "11",
+    "y": "16",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "11_18_045.jpg",
+    "x": "11",
+    "y": "18",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "11_20_315.jpg",
+    "x": "11",
+    "y": "20",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "11_22_315.jpg",
+    "x": "11",
+    "y": "22",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "12_05_315.jpg",
+    "x": "12",
+    "y": "5",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "12_07_315.jpg",
+    "x": "12",
+    "y": "7",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "12_09_315.jpg",
+    "x": "12",
+    "y": "9",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "12_11_225.jpg",
+    "x": "12",
+    "y": "11",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "12_13_315.jpg",
+    "x": "12",
+    "y": "13",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "12_15_315.jpg",
+    "x": "12",
+    "y": "15",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "12_17_315.jpg",
+    "x": "12",
+    "y": "17",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "12_19_225.jpg",
+    "x": "12",
+    "y": "19",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "12_21_135.jpg",
+    "x": "12",
+    "y": "21",
+    "miniature_rotation": "45",
+    "detail_rotation": "135",
+    "class": "main"
+  },
+  {
+    "name": "13_04_315.jpg",
+    "x": "13",
+    "y": "4",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "13_06_315.jpg",
+    "x": "13",
+    "y": "6",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "13_08_315.jpg",
+    "x": "13",
+    "y": "8",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "13_10_315.jpg",
+    "x": "13",
+    "y": "10",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "13_12_315.jpg",
+    "x": "13",
+    "y": "12",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "13_14_315.jpg",
+    "x": "13",
+    "y": "14",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "13_16_315.jpg",
+    "x": "13",
+    "y": "16",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "13_18_315.jpg",
+    "x": "13",
+    "y": "18",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "13_20_135.jpg",
+    "x": "13",
+    "y": "20",
+    "miniature_rotation": "45",
+    "detail_rotation": "135",
+    "class": "main"
+  },
+  {
+    "name": "14_05_315.jpg",
+    "x": "14",
+    "y": "5",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "14_07_315.jpg",
+    "x": "14",
+    "y": "7",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "14_09_315.jpg",
+    "x": "14",
+    "y": "9",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "14_11_315.jpg",
+    "x": "14",
+    "y": "11",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "14_13_315.jpg",
+    "x": "14",
+    "y": "13",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "14_15_315.jpg",
+    "x": "14",
+    "y": "15",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "14_17_225.jpg",
+    "x": "14",
+    "y": "17",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "14_19_135.jpg",
+    "x": "14",
+    "y": "19",
+    "miniature_rotation": "45",
+    "detail_rotation": "135",
+    "class": "main"
+  },
+  {
+    "name": "14_21_315.jpg",
+    "x": "14",
+    "y": "21",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "15_04_315.jpg",
+    "x": "15",
+    "y": "4",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "15_06_315.jpg",
+    "x": "15",
+    "y": "6",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "15_08_315.jpg",
+    "x": "15",
+    "y": "8",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "15_10_315.jpg",
+    "x": "15",
+    "y": "10",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "15_12_315.jpg",
+    "x": "15",
+    "y": "12",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "15_14_315.jpg",
+    "x": "15",
+    "y": "14",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "15_16_045.jpg",
+    "x": "15",
+    "y": "16",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "15_18_225.jpg",
+    "x": "15",
+    "y": "18",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "15_20_315.jpg",
+    "x": "15",
+    "y": "20",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "16_05_315.jpg",
+    "x": "16",
+    "y": "5",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "16_07_315.jpg",
+    "x": "16",
+    "y": "7",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "16_09_315.jpg",
+    "x": "16",
+    "y": "9",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "16_11_315.jpg",
+    "x": "16",
+    "y": "11",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "16_13_315.jpg",
+    "x": "16",
+    "y": "13",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "16_15_315.jpg",
+    "x": "16",
+    "y": "15",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "16_17_315.jpg",
+    "x": "16",
+    "y": "17",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "16_19_315.jpg",
+    "x": "16",
+    "y": "19",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "16_21_315.jpg",
+    "x": "16",
+    "y": "21",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "17_04_315.jpg",
+    "x": "17",
+    "y": "4",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "17_06_315.jpg",
+    "x": "17",
+    "y": "6",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "17_08_315.jpg",
+    "x": "17",
+    "y": "8",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "17_10_315.jpg",
+    "x": "17",
+    "y": "10",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "17_12_315.jpg",
+    "x": "17",
+    "y": "12",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "17_14_225.jpg",
+    "x": "17",
+    "y": "14",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "17_16_315.jpg",
+    "x": "17",
+    "y": "16",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "17_18_225.jpg",
+    "x": "17",
+    "y": "18",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "17_20_315.jpg",
+    "x": "17",
+    "y": "20",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "18_05_315.jpg",
+    "x": "18",
+    "y": "5",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "18_07_315.jpg",
+    "x": "18",
+    "y": "7",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "18_09_315.jpg",
+    "x": "18",
+    "y": "9",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "18_11_315.jpg",
+    "x": "18",
+    "y": "11",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "18_13_315.jpg",
+    "x": "18",
+    "y": "13",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "18_15_315.jpg",
+    "x": "18",
+    "y": "15",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "18_17_315.jpg",
+    "x": "18",
+    "y": "17",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "18_19_225.jpg",
+    "x": "18",
+    "y": "19",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "18_21_315.jpg",
+    "x": "18",
+    "y": "21",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "19_04_315.jpg",
+    "x": "19",
+    "y": "4",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "19_06_315.jpg",
+    "x": "19",
+    "y": "6",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "19_08_315.jpg",
+    "x": "19",
+    "y": "8",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "19_10_315.jpg",
+    "x": "19",
+    "y": "10",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "19_12_315.jpg",
+    "x": "19",
+    "y": "12",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "19_14_315.jpg",
+    "x": "19",
+    "y": "14",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "19_16_315.jpg",
+    "x": "19",
+    "y": "16",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "19_18_315.jpg",
+    "x": "19",
+    "y": "18",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "19_20_315.jpg",
+    "x": "19",
+    "y": "20",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "20_05_315.jpg",
+    "x": "20",
+    "y": "5",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "20_07_315.jpg",
+    "x": "20",
+    "y": "7",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "20_09_315.jpg",
+    "x": "20",
+    "y": "9",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "20_11_315.jpg",
+    "x": "20",
+    "y": "11",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "20_13_315.jpg",
+    "x": "20",
+    "y": "13",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "20_15_315.jpg",
+    "x": "20",
+    "y": "15",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "20_17_315.jpg",
+    "x": "20",
+    "y": "17",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "20_19_225.jpg",
+    "x": "20",
+    "y": "19",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "20_21_135.jpg",
+    "x": "20",
+    "y": "21",
+    "miniature_rotation": "45",
+    "detail_rotation": "135",
+    "class": "main"
+  },
+  {
+    "name": "21_04_225.jpg",
+    "x": "21",
+    "y": "4",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "21_06_225.jpg",
+    "x": "21",
+    "y": "6",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "21_08_045.png",
+    "x": "21",
+    "y": "8",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "21_10_045.png",
+    "x": "21",
+    "y": "10",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "21_12_045.png",
+    "x": "21",
+    "y": "12",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "21_14_045.png",
+    "x": "21",
+    "y": "14",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "21_16_045.png",
+    "x": "21",
+    "y": "16",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "21_18_315.jpg",
+    "x": "21",
+    "y": "18",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "21_20_045.jpg",
+    "x": "21",
+    "y": "20",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "22_05_315.jpg",
+    "x": "22",
+    "y": "5",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "22_07_045.png",
+    "x": "22",
+    "y": "7",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "22_17_045.png",
+    "x": "22",
+    "y": "17",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "22_19_315.jpg",
+    "x": "22",
+    "y": "19",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "22_21_315.jpg",
+    "x": "22",
+    "y": "21",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "23_04_315.jpg",
+    "x": "23",
+    "y": "4",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "23_06_315.jpg",
+    "x": "23",
+    "y": "6",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "23_18_315.jpg",
+    "x": "23",
+    "y": "18",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "23_20_225.jpg",
+    "x": "23",
+    "y": "20",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "24_05_315.jpg",
+    "x": "24",
+    "y": "5",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "24_07_045.png",
+    "x": "24",
+    "y": "7",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "24_17_045.png",
+    "x": "24",
+    "y": "17",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "24_19_225.jpg",
+    "x": "24",
+    "y": "19",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "24_21_045.jpg",
+    "x": "24",
+    "y": "21",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "25_04_315.jpg",
+    "x": "25",
+    "y": "4",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "25_06_315.jpg",
+    "x": "25",
+    "y": "6",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "25_18_315.jpg",
+    "x": "25",
+    "y": "18",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "25_20_315.jpg",
+    "x": "25",
+    "y": "20",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "26_05_315.jpg",
+    "x": "26",
+    "y": "5",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "26_07_045.png",
+    "x": "26",
+    "y": "7",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "26_17_045.png",
+    "x": "26",
+    "y": "17",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "26_19_225.jpg",
+    "x": "26",
+    "y": "19",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "27_04_315.jpg",
+    "x": "27",
+    "y": "4",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "27_06_315.jpg",
+    "x": "27",
+    "y": "6",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "27_18_315.jpg",
+    "x": "27",
+    "y": "18",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "27_20_045.jpg",
+    "x": "27",
+    "y": "20",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "28_05_315.jpg",
+    "x": "28",
+    "y": "5",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "28_07_045.png",
+    "x": "28",
+    "y": "7",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "28_17_045.png",
+    "x": "28",
+    "y": "17",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "28_19_315.jpg",
+    "x": "28",
+    "y": "19",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "29_04_315.jpg",
+    "x": "29",
+    "y": "4",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "29_06_315.jpg",
+    "x": "29",
+    "y": "6",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "29_18_225.jpg",
+    "x": "29",
+    "y": "18",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "29_20_315.jpg",
+    "x": "29",
+    "y": "20",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "30_05_315.jpg",
+    "x": "30",
+    "y": "5",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "30_07_045.png",
+    "x": "30",
+    "y": "7",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "30_17_045.png",
+    "x": "30",
+    "y": "17",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "30_19_315.jpg",
+    "x": "30",
+    "y": "19",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "31_04_315.jpg",
+    "x": "31",
+    "y": "4",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "31_06_315.jpg",
+    "x": "31",
+    "y": "6",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "31_18_225.jpg",
+    "x": "31",
+    "y": "18",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "31_20_315.jpg",
+    "x": "31",
+    "y": "20",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "32_05_315.jpg",
+    "x": "32",
+    "y": "5",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "32_07_045.png",
+    "x": "32",
+    "y": "7",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "32_17_045.png",
+    "x": "32",
+    "y": "17",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "32_19_315.jpg",
+    "x": "32",
+    "y": "19",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "33_04_315.jpg",
+    "x": "33",
+    "y": "4",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "33_06_225.jpg",
+    "x": "33",
+    "y": "6",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "33_18_225.jpg",
+    "x": "33",
+    "y": "18",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "33_20_315.jpg",
+    "x": "33",
+    "y": "20",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "34_05_315.jpg",
+    "x": "34",
+    "y": "5",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "34_07_045.png",
+    "x": "34",
+    "y": "7",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "34_17_045.png",
+    "x": "34",
+    "y": "17",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "34_19_315.jpg",
+    "x": "34",
+    "y": "19",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "35_04_315.jpg",
+    "x": "35",
+    "y": "4",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "35_06_315.jpg",
+    "x": "35",
+    "y": "6",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "35_08_045.png",
+    "x": "35",
+    "y": "8",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "35_10_045.png",
+    "x": "35",
+    "y": "10",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "35_12_045.png",
+    "x": "35",
+    "y": "12",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "35_14_045.png",
+    "x": "35",
+    "y": "14",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "35_16_045.png",
+    "x": "35",
+    "y": "16",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "35_18_315.jpg",
+    "x": "35",
+    "y": "18",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "35_20_315.jpg",
+    "x": "35",
+    "y": "20",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "36_05_315.jpg",
+    "x": "36",
+    "y": "5",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "36_07_315.jpg",
+    "x": "36",
+    "y": "7",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "36_09_315.jpg",
+    "x": "36",
+    "y": "9",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "36_11_315.jpg",
+    "x": "36",
+    "y": "11",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "36_13_315.jpg",
+    "x": "36",
+    "y": "13",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "36_15_315.jpg",
+    "x": "36",
+    "y": "15",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "36_17_315.jpg",
+    "x": "36",
+    "y": "17",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "36_19_225.jpg",
+    "x": "36",
+    "y": "19",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "37_04_315.jpg",
+    "x": "37",
+    "y": "4",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "37_06_315.jpg",
+    "x": "37",
+    "y": "6",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "37_08_315.jpg",
+    "x": "37",
+    "y": "8",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "37_10_315.jpg",
+    "x": "37",
+    "y": "10",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "37_12_315.jpg",
+    "x": "37",
+    "y": "12",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "37_14_225.jpg",
+    "x": "37",
+    "y": "14",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "37_16_315.jpg",
+    "x": "37",
+    "y": "16",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "37_18_315.jpg",
+    "x": "37",
+    "y": "18",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "37_20_315.jpg",
+    "x": "37",
+    "y": "20",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "38_05_315.jpg",
+    "x": "38",
+    "y": "5",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "38_07_315.jpg",
+    "x": "38",
+    "y": "7",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "38_09_315.jpg",
+    "x": "38",
+    "y": "9",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "38_11_315.jpg",
+    "x": "38",
+    "y": "11",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "38_13_315.jpg",
+    "x": "38",
+    "y": "13",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "38_15_315.jpg",
+    "x": "38",
+    "y": "15",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "38_17_225.jpg",
+    "x": "38",
+    "y": "17",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "38_19_315.jpg",
+    "x": "38",
+    "y": "19",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "39_04_315.jpg",
+    "x": "39",
+    "y": "4",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "39_06_315.jpg",
+    "x": "39",
+    "y": "6",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "39_08_315.jpg",
+    "x": "39",
+    "y": "8",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "39_10_315.jpg",
+    "x": "39",
+    "y": "10",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "39_12_315.jpg",
+    "x": "39",
+    "y": "12",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "39_14_315.jpg",
+    "x": "39",
+    "y": "14",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "39_16_315.jpg",
+    "x": "39",
+    "y": "16",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "39_18_315.jpg",
+    "x": "39",
+    "y": "18",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "39_20_315.jpg",
+    "x": "39",
+    "y": "20",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "40_05_315.jpg",
+    "x": "40",
+    "y": "5",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "40_07_315.jpg",
+    "x": "40",
+    "y": "7",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "40_09_315.jpg",
+    "x": "40",
+    "y": "9",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "40_11_315.jpg",
+    "x": "40",
+    "y": "11",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "40_13_315.jpg",
+    "x": "40",
+    "y": "13",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "40_15_315.jpg",
+    "x": "40",
+    "y": "15",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "40_17_135.jpg",
+    "x": "40",
+    "y": "17",
+    "miniature_rotation": "45",
+    "detail_rotation": "135",
+    "class": "main"
+  },
+  {
+    "name": "40_19_225.jpg",
+    "x": "40",
+    "y": "19",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "41_04_315.jpg",
+    "x": "41",
+    "y": "4",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "41_06_315.jpg",
+    "x": "41",
+    "y": "6",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "41_08_315.jpg",
+    "x": "41",
+    "y": "8",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "41_10_315.jpg",
+    "x": "41",
+    "y": "10",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "41_12_315.jpg",
+    "x": "41",
+    "y": "12",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "41_14_315.jpg",
+    "x": "41",
+    "y": "14",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "41_16_225.jpg",
+    "x": "41",
+    "y": "16",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "41_18_225.jpg",
+    "x": "41",
+    "y": "18",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "41_20_225.jpg",
+    "x": "41",
+    "y": "20",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "42_05_315.jpg",
+    "x": "42",
+    "y": "5",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "42_07_315.jpg",
+    "x": "42",
+    "y": "7",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "42_09_315.jpg",
+    "x": "42",
+    "y": "9",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "42_11_315.jpg",
+    "x": "42",
+    "y": "11",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "42_13_315.jpg",
+    "x": "42",
+    "y": "13",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "42_15_225.jpg",
+    "x": "42",
+    "y": "15",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "42_17_225.jpg",
+    "x": "42",
+    "y": "17",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "42_19_135.jpg",
+    "x": "42",
+    "y": "19",
+    "miniature_rotation": "45",
+    "detail_rotation": "135",
+    "class": "main"
+  },
+  {
+    "name": "43_04_315.jpg",
+    "x": "43",
+    "y": "4",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "43_06_315.jpg",
+    "x": "43",
+    "y": "6",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "43_08_315.jpg",
+    "x": "43",
+    "y": "8",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "43_10_315.jpg",
+    "x": "43",
+    "y": "10",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "43_12_315.jpg",
+    "x": "43",
+    "y": "12",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "43_14_045.jpg",
+    "x": "43",
+    "y": "14",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "43_16_225.jpg",
+    "x": "43",
+    "y": "16",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "43_18_315.jpg",
+    "x": "43",
+    "y": "18",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "43_20_225.jpg",
+    "x": "43",
+    "y": "20",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "44_05_315.jpg",
+    "x": "44",
+    "y": "5",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "44_07_315.jpg",
+    "x": "44",
+    "y": "7",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "44_09_315.jpg",
+    "x": "44",
+    "y": "9",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "44_11_315.jpg",
+    "x": "44",
+    "y": "11",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "44_13_225.jpg",
+    "x": "44",
+    "y": "13",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "44_15_225.jpg",
+    "x": "44",
+    "y": "15",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "44_17_225.jpg",
+    "x": "44",
+    "y": "17",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "44_19_225.jpg",
+    "x": "44",
+    "y": "19",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "45_04_315.jpg",
+    "x": "45",
+    "y": "4",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "45_06_315.jpg",
+    "x": "45",
+    "y": "6",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "45_08_315.jpg",
+    "x": "45",
+    "y": "8",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "45_10_315.jpg",
+    "x": "45",
+    "y": "10",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "45_12_315.jpg",
+    "x": "45",
+    "y": "12",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "45_14_225.jpg",
+    "x": "45",
+    "y": "14",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "45_16_225.jpg",
+    "x": "45",
+    "y": "16",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "45_18_225.jpg",
+    "x": "45",
+    "y": "18",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "45_20_225.jpg",
+    "x": "45",
+    "y": "20",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "46_05_315.jpg",
+    "x": "46",
+    "y": "5",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "46_07_315.jpg",
+    "x": "46",
+    "y": "7",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "46_09_045.jpg",
+    "x": "46",
+    "y": "9",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "main"
+  },
+  {
+    "name": "46_11_315.jpg",
+    "x": "46",
+    "y": "11",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "46_13_315.jpg",
+    "x": "46",
+    "y": "13",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "46_15_225.jpg",
+    "x": "46",
+    "y": "15",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "46_17_225.jpg",
+    "x": "46",
+    "y": "17",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "46_19_225.jpg",
+    "x": "46",
+    "y": "19",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "47_04_315.jpg",
+    "x": "47",
+    "y": "4",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "47_06_315.jpg",
+    "x": "47",
+    "y": "6",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "47_08_315.jpg",
+    "x": "47",
+    "y": "8",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "47_10_315.jpg",
+    "x": "47",
+    "y": "10",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "47_12_315.jpg",
+    "x": "47",
+    "y": "12",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "47_14_315.jpg",
+    "x": "47",
+    "y": "14",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "47_16_225.jpg",
+    "x": "47",
+    "y": "16",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "47_18_225.jpg",
+    "x": "47",
+    "y": "18",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "47_20_225.jpg",
+    "x": "47",
+    "y": "20",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "48_05_315.jpg",
+    "x": "48",
+    "y": "5",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "48_07_315.jpg",
+    "x": "48",
+    "y": "7",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "48_09_315.jpg",
+    "x": "48",
+    "y": "9",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "48_11_315.jpg",
+    "x": "48",
+    "y": "11",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "48_13_315.jpg",
+    "x": "48",
+    "y": "13",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "48_15_225.jpg",
+    "x": "48",
+    "y": "15",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "48_17_225.jpg",
+    "x": "48",
+    "y": "17",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "48_19_225.jpg",
+    "x": "48",
+    "y": "19",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "main"
+  },
+  {
+    "name": "49_06_315.jpg",
+    "x": "49",
+    "y": "6",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "49_08_315.jpg",
+    "x": "49",
+    "y": "8",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "49_10_315.jpg",
+    "x": "49",
+    "y": "10",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "49_12_315.jpg",
+    "x": "49",
+    "y": "12",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "49_14_315.jpg",
+    "x": "49",
+    "y": "14",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "49_16_315.jpg",
+    "x": "49",
+    "y": "16",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "49_18_135.jpg",
+    "x": "49",
+    "y": "18",
+    "miniature_rotation": "45",
+    "detail_rotation": "135",
+    "class": "main"
+  },
+  {
+    "name": "49_20_315.jpg",
+    "x": "49",
+    "y": "20",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "50_07_315.jpg",
+    "x": "50",
+    "y": "7",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "50_09_315.jpg",
+    "x": "50",
+    "y": "9",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "50_11_315.jpg",
+    "x": "50",
+    "y": "11",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "50_13_315.jpg",
+    "x": "50",
+    "y": "13",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "50_15_315.jpg",
+    "x": "50",
+    "y": "15",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "50_17_315.jpg",
+    "x": "50",
+    "y": "17",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "50_19_315.jpg",
+    "x": "50",
+    "y": "19",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "main"
+  },
+  {
+    "name": "00_00_315.jpg",
+    "x": "0",
+    "y": "0",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "center"
+  },
+  {
+    "name": "00_01_045.jpg",
+    "x": "0",
+    "y": "1",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "center"
+  },
+  {
+    "name": "00_02_045.jpg",
+    "x": "0",
+    "y": "2",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "center"
+  },
+  {
+    "name": "00_03_045.jpg",
+    "x": "0",
+    "y": "3",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "center"
+  },
+  {
+    "name": "00_04_135.jpg",
+    "x": "0",
+    "y": "4",
+    "miniature_rotation": "45",
+    "detail_rotation": "135",
+    "class": "center"
+  },
+  {
+    "name": "00_05_045.jpg",
+    "x": "0",
+    "y": "5",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "center"
+  },
+  {
+    "name": "00_06_225.jpg",
+    "x": "0",
+    "y": "6",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "center"
+  },
+  {
+    "name": "01_00_045.jpg",
+    "x": "1",
+    "y": "0",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "center"
+  },
+  {
+    "name": "01_01_045.jpg",
+    "x": "1",
+    "y": "1",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "center"
+  },
+  {
+    "name": "01_02_045.jpg",
+    "x": "1",
+    "y": "2",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "center"
+  },
+  {
+    "name": "01_03_045.jpg",
+    "x": "1",
+    "y": "3",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "center"
+  },
+  {
+    "name": "01_04_045.jpg",
+    "x": "1",
+    "y": "4",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "center"
+  },
+  {
+    "name": "01_05_045.jpg",
+    "x": "1",
+    "y": "5",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "center"
+  },
+  {
+    "name": "01_06_045.jpg",
+    "x": "1",
+    "y": "6",
+    "miniature_rotation": "45",
+    "detail_rotation": "45",
+    "class": "center"
+  },
+  {
+    "name": "02_00_225.jpg",
+    "x": "2",
+    "y": "0",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "center"
+  },
+  {
+    "name": "02_01_000.jpg",
+    "x": "2",
+    "y": "1",
+    "miniature_rotation": "45",
+    "detail_rotation": "0",
+    "class": "center"
+  },
+  {
+    "name": "02_02_000.jpg",
+    "x": "2",
+    "y": "2",
+    "miniature_rotation": "45",
+    "detail_rotation": "0",
+    "class": "center"
+  },
+  {
+    "name": "02_03_000.jpg",
+    "x": "2",
+    "y": "3",
+    "miniature_rotation": "45",
+    "detail_rotation": "0",
+    "class": "center"
+  },
+  {
+    "name": "02_04_000.jpg",
+    "x": "2",
+    "y": "4",
+    "miniature_rotation": "45",
+    "detail_rotation": "0",
+    "class": "center"
+  },
+  {
+    "name": "02_05_000.jpg",
+    "x": "2",
+    "y": "5",
+    "miniature_rotation": "45",
+    "detail_rotation": "0",
+    "class": "center"
+  },
+  {
+    "name": "02_06_135.jpg",
+    "x": "2",
+    "y": "6",
+    "miniature_rotation": "45",
+    "detail_rotation": "135",
+    "class": "center"
+  },
+  {
+    "name": "03_00_315.jpg",
+    "x": "3",
+    "y": "0",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "center"
+  },
+  {
+    "name": "03_01_000.jpg",
+    "x": "3",
+    "y": "1",
+    "miniature_rotation": "45",
+    "detail_rotation": "0",
+    "class": "center"
+  },
+  {
+    "name": "03_02_270.jpg",
+    "x": "3",
+    "y": "2",
+    "miniature_rotation": "45",
+    "detail_rotation": "270",
+    "class": "center"
+  },
+  {
+    "name": "03_03_270.jpg",
+    "x": "3",
+    "y": "3",
+    "miniature_rotation": "45",
+    "detail_rotation": "270",
+    "class": "center"
+  },
+  {
+    "name": "03_04_270.jpg",
+    "x": "3",
+    "y": "4",
+    "miniature_rotation": "45",
+    "detail_rotation": "270",
+    "class": "center"
+  },
+  {
+    "name": "03_05_000.jpg",
+    "x": "3",
+    "y": "5",
+    "miniature_rotation": "45",
+    "detail_rotation": "0",
+    "class": "center"
+  },
+  {
+    "name": "03_06_135.jpg",
+    "x": "3",
+    "y": "6",
+    "miniature_rotation": "45",
+    "detail_rotation": "135",
+    "class": "center"
+  },
+  {
+    "name": "04_00_315.jpg",
+    "x": "4",
+    "y": "0",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "center"
+  },
+  {
+    "name": "04_01_000.jpg",
+    "x": "4",
+    "y": "1",
+    "miniature_rotation": "45",
+    "detail_rotation": "0",
+    "class": "center"
+  },
+  {
+    "name": "04_02_270.jpg",
+    "x": "4",
+    "y": "2",
+    "miniature_rotation": "45",
+    "detail_rotation": "270",
+    "class": "center"
+  },
+  {
+    "name": "04_03_270.jpg",
+    "x": "4",
+    "y": "3",
+    "miniature_rotation": "45",
+    "detail_rotation": "270",
+    "class": "center"
+  },
+  {
+    "name": "04_04_270.jpg",
+    "x": "4",
+    "y": "4",
+    "miniature_rotation": "45",
+    "detail_rotation": "270",
+    "class": "center"
+  },
+  {
+    "name": "04_05_000.jpg",
+    "x": "4",
+    "y": "5",
+    "miniature_rotation": "45",
+    "detail_rotation": "0",
+    "class": "center"
+  },
+  {
+    "name": "04_06_135.jpg",
+    "x": "4",
+    "y": "6",
+    "miniature_rotation": "45",
+    "detail_rotation": "135",
+    "class": "center"
+  },
+  {
+    "name": "05_00_315.jpg",
+    "x": "5",
+    "y": "0",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "center"
+  },
+  {
+    "name": "05_01_000.jpg",
+    "x": "5",
+    "y": "1",
+    "miniature_rotation": "45",
+    "detail_rotation": "0",
+    "class": "center"
+  },
+  {
+    "name": "05_02_270.jpg",
+    "x": "5",
+    "y": "2",
+    "miniature_rotation": "45",
+    "detail_rotation": "270",
+    "class": "center"
+  },
+  {
+    "name": "05_03_270.jpg",
+    "x": "5",
+    "y": "3",
+    "miniature_rotation": "45",
+    "detail_rotation": "270",
+    "class": "center"
+  },
+  {
+    "name": "05_04_270.jpg",
+    "x": "5",
+    "y": "4",
+    "miniature_rotation": "45",
+    "detail_rotation": "270",
+    "class": "center"
+  },
+  {
+    "name": "05_05_000.jpg",
+    "x": "5",
+    "y": "5",
+    "miniature_rotation": "45",
+    "detail_rotation": "0",
+    "class": "center"
+  },
+  {
+    "name": "05_06_135.jpg",
+    "x": "5",
+    "y": "6",
+    "miniature_rotation": "45",
+    "detail_rotation": "135",
+    "class": "center"
+  },
+  {
+    "name": "06_00_315.jpg",
+    "x": "6",
+    "y": "0",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "center"
+  },
+  {
+    "name": "06_01_000.jpg",
+    "x": "6",
+    "y": "1",
+    "miniature_rotation": "45",
+    "detail_rotation": "0",
+    "class": "center"
+  },
+  {
+    "name": "06_02_270.jpg",
+    "x": "6",
+    "y": "2",
+    "miniature_rotation": "45",
+    "detail_rotation": "270",
+    "class": "center"
+  },
+  {
+    "name": "06_03_270.jpg",
+    "x": "6",
+    "y": "3",
+    "miniature_rotation": "45",
+    "detail_rotation": "270",
+    "class": "center"
+  },
+  {
+    "name": "06_04_270.jpg",
+    "x": "6",
+    "y": "4",
+    "miniature_rotation": "45",
+    "detail_rotation": "270",
+    "class": "center"
+  },
+  {
+    "name": "06_05_000.jpg",
+    "x": "6",
+    "y": "5",
+    "miniature_rotation": "45",
+    "detail_rotation": "0",
+    "class": "center"
+  },
+  {
+    "name": "06_06_135.jpg",
+    "x": "6",
+    "y": "6",
+    "miniature_rotation": "45",
+    "detail_rotation": "135",
+    "class": "center"
+  },
+  {
+    "name": "07_00_315.jpg",
+    "x": "7",
+    "y": "0",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "center"
+  },
+  {
+    "name": "07_01_000.jpg",
+    "x": "7",
+    "y": "1",
+    "miniature_rotation": "45",
+    "detail_rotation": "0",
+    "class": "center"
+  },
+  {
+    "name": "07_02_000.jpg",
+    "x": "7",
+    "y": "2",
+    "miniature_rotation": "45",
+    "detail_rotation": "0",
+    "class": "center"
+  },
+  {
+    "name": "07_03_000.jpg",
+    "x": "7",
+    "y": "3",
+    "miniature_rotation": "45",
+    "detail_rotation": "0",
+    "class": "center"
+  },
+  {
+    "name": "07_04_000.jpg",
+    "x": "7",
+    "y": "4",
+    "miniature_rotation": "45",
+    "detail_rotation": "0",
+    "class": "center"
+  },
+  {
+    "name": "07_05_000.jpg",
+    "x": "7",
+    "y": "5",
+    "miniature_rotation": "45",
+    "detail_rotation": "0",
+    "class": "center"
+  },
+  {
+    "name": "07_06_135.jpg",
+    "x": "7",
+    "y": "6",
+    "miniature_rotation": "45",
+    "detail_rotation": "135",
+    "class": "center"
+  },
+  {
+    "name": "08_00_315.jpg",
+    "x": "8",
+    "y": "0",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "center"
+  },
+  {
+    "name": "08_01_225.jpg",
+    "x": "8",
+    "y": "1",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "center"
+  },
+  {
+    "name": "08_02_225.jpg",
+    "x": "8",
+    "y": "2",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "center"
+  },
+  {
+    "name": "08_03_225.jpg",
+    "x": "8",
+    "y": "3",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "center"
+  },
+  {
+    "name": "08_04_225.jpg",
+    "x": "8",
+    "y": "4",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "center"
+  },
+  {
+    "name": "08_05_225.jpg",
+    "x": "8",
+    "y": "5",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "center"
+  },
+  {
+    "name": "08_06_225.jpg",
+    "x": "8",
+    "y": "6",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "center"
+  },
+  {
+    "name": "09_00_225.jpg",
+    "x": "9",
+    "y": "0",
+    "miniature_rotation": "45",
+    "detail_rotation": "225",
+    "class": "center"
+  },
+  {
+    "name": "09_01_315.jpg",
+    "x": "9",
+    "y": "1",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "center"
+  },
+  {
+    "name": "09_02_315.jpg",
+    "x": "9",
+    "y": "2",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "center"
+  },
+  {
+    "name": "09_03_315.jpg",
+    "x": "9",
+    "y": "3",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "center"
+  },
+  {
+    "name": "09_04_315.jpg",
+    "x": "9",
+    "y": "4",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "center"
+  },
+  {
+    "name": "09_05_315.jpg",
+    "x": "9",
+    "y": "5",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "center"
+  },
+  {
+    "name": "09_06_315.jpg",
+    "x": "9",
+    "y": "6",
+    "miniature_rotation": "45",
+    "detail_rotation": "315",
+    "class": "center"
+  }
+]

@@ -1,0 +1,176 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background-image: url('/bkg.png');
+  background-repeat: repeat;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* ── Presentación ─────────────────────────────────────────── */
+
+.presentation-root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  gap: 20px;
+}
+
+.presentation-header {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.presentation-escudo-techo { max-height: 80px; cursor: pointer; }
+.presentation-indio { max-height: 80px; cursor: pointer; }
+.presentation-link { cursor: pointer; }
+
+.presentation-images {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.presentation-thumb {
+  cursor: pointer;
+  max-height: 200px;
+  border: 2px solid #8B7355;
+  transition: opacity 0.2s;
+}
+.presentation-thumb:hover { opacity: 0.85; }
+
+.presentation-footer {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.presentation-loading {
+  color: #8B7355;
+  font-size: 1rem;
+}
+
+.ver-mural-btn {
+  padding: 10px 28px;
+  font-size: 1.1rem;
+  background: #8B7355;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.ver-mural-btn:hover { background: #6f5b42; }
+
+/* ── Navigator ────────────────────────────────────────────── */
+
+.navigator-root {
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  align-items: flex-start;
+}
+
+.navigator-canvas-area {
+  flex-shrink: 0;
+}
+
+.navigator-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 220px;
+}
+
+.navigator-controls-top,
+.navigator-controls-middle,
+.navigator-controls-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+/* ── Direction widget ─────────────────────────────────────── */
+
+.direction-widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+.direction-row {
+  display: flex;
+  gap: 2px;
+}
+
+/* ── Zoom widget ──────────────────────────────────────────── */
+
+.zoom-widget {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.zoom-label {
+  min-width: 50px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* ── Image buttons ────────────────────────────────────────── */
+
+.img-btn {
+  background: none;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  padding: 2px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-btn:hover:not(:disabled) { background: rgba(0,0,0,0.08); }
+.img-btn:active:not(:disabled) { background: rgba(0,0,0,0.15); transform: translateY(1px); }
+.img-btn--disabled, .img-btn:disabled { opacity: 0.3; cursor: default; }
+.img-btn img { display: block; width: 24px; height: 24px; }
+
+/* ── Popup glass overlay ──────────────────────────────────── */
+
+.popup-glass {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.popup-content {
+  background: white;
+  border-radius: 6px;
+  padding: 16px;
+  max-width: 95vw;
+  max-height: 95vh;
+  overflow: auto;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+}
+
+/* ── Help popup ───────────────────────────────────────────── */
+
+.help-popup {
+  max-width: 400px;
+}
+.help-popup h2 { margin-bottom: 12px; }
+.help-popup ul { padding-left: 20px; margin-bottom: 16px; }
+.help-popup li { margin-bottom: 6px; }
+.help-popup button {
+  padding: 6px 18px;
+  cursor: pointer;
+  background: #8B7355;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
