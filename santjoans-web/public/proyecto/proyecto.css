@@ -1,27 +1,95 @@
+/* Patrimonio mediterráneo — tokens inline para documento estático */
+
+:root {
+  --color-bg:       #f4ede0;
+  --color-surface:  #fbf7ee;
+  --color-ink:      #2a1f14;
+  --color-ink-soft: #5b4a36;
+  --color-rule:     #d8cdb6;
+  --color-cobalt:   #1f4a7a;
+  --color-cobalt-d: #163559;
+  --color-shadow:   rgba(42, 31, 20, 0.12);
+
+  --font-serif: 'Cormorant Garamond', 'Times New Roman', serif;
+  --font-sans:  'Inter', system-ui, -apple-system, sans-serif;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background-color: var(--color-bg);
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+#contenedor {
+  background-color: var(--color-surface);
+  width: 700px;
+  margin: 2em auto;
+  border: 1px solid var(--color-rule);
+  border-radius: 12px;
+  box-shadow: 0 4px 16px var(--color-shadow);
+  padding: 32px 32px 48px;
+}
+
+h1 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 2.1rem;
+  color: var(--color-ink);
+  letter-spacing: -0.01em;
+  line-height: 1.15;
+  padding-bottom: 12px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid var(--color-rule);
+}
+
+h2 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: var(--color-ink);
+  margin: 28px 0 10px;
+}
+
+p {
+  margin-bottom: 14px;
+  text-align: left;
+}
+
+a {
+  color: var(--color-cobalt);
+  text-decoration: none;
+  transition: color 120ms;
+}
+a:hover {
+  color: var(--color-cobalt-d);
+  text-decoration: underline;
+}
+
+ul, ol {
+  margin: 0 0 14px 24px;
+}
+li {
+  margin-bottom: 6px;
+}
 
 img.participantes {
   float: left;
-  margin-bottom: 2em;
-}
-div.participantes {
-  margin-left: 6em;
-}
-.separador {
-  clear: left;
+  width: 90px;
+  border: 1px solid var(--color-rule);
+  border-radius: 6px;
+  box-shadow: 0 1px 3px var(--color-shadow);
+  margin: 0 16px 16px 0;
 }
 
-body {
-	background-image: url("santjoans/bkg.png");
-	background-repeat: no-repeat;
-	background-position: center top;
-	background-attachment: fixed;
+div.participantes {
+  margin-left: 0;
 }
-	
-#contenedor {
-	background-color: white;
-    width:700px; 
-    margin:1em auto; 
-    border:1px solid #333333; 
-    text-align:justify; /*aqui alineamos todo de nuevo a la izquierda, pero dentro del contenedor*/
-    padding: 10px 20px 20px 20px; 
+
+.separador {
+  clear: left;
+  margin-bottom: 14px;
 }

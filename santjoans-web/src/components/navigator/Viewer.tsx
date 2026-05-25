@@ -33,7 +33,8 @@ export function Viewer({ onEngineReady }: Props) {
         ref={canvasRef}
         width={screen.canvasX}
         height={screen.canvasY()}
-        style={{ display: 'block', background: 'grey' }}
+        className="viewer-canvas"
+        style={{ display: 'block' }}
       />
       {popupPieze && (
         <PiezePopup pieze={popupPieze} onClose={() => setPopupPieze(null)} />
