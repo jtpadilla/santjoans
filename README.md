@@ -67,3 +67,5 @@ Una vez compilado, abrir `http://127.0.0.1:8888/Santjoans.html` (sin el parámet
 
 Las imágenes de las piezas zoo-mórficas están publicadas bajo licencia
 [Creative Commons BY-NC 3.0](http://creativecommons.org/licenses/by-nc/3.0/).
+
+
