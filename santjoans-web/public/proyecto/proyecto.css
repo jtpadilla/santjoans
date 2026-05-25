@@ -1,0 +1,27 @@
+
+img.participantes {
+  float: left;
+  margin-bottom: 2em;
+}
+div.participantes {
+  margin-left: 6em;
+}
+.separador {
+  clear: left;
+}
+
+body {
+	background-image: url("santjoans/bkg.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+}
+	
+#contenedor {
+	background-color: white;
+    width:700px; 
+    margin:1em auto; 
+    border:1px solid #333333; 
+    text-align:justify; /*aqui alineamos todo de nuevo a la izquierda, pero dentro del contenedor*/
+    padding: 10px 20px 20px 20px; 
+}

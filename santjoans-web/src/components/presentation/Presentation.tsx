@@ -125,7 +125,7 @@ export function Presentation({ loadingRemaining, onEnterNavigator }: Props) {
       <hr />
 
       <div className="presentation-footer-links">
-        <a href="proyecto.html" target="_blank" rel="noreferrer" className="presentation-info-link">Información del proyecto</a>
+        <a href="./proyecto/proyecto.html" target="_blank" rel="noreferrer" className="presentation-info-link">Información del proyecto</a>
         <a href="http://jtpadilla.blogspot.com/search/label/santjoans" target="_blank" rel="noreferrer" className="presentation-info-link">Noticias</a>
       </div>
 

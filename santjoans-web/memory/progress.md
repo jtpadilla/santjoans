@@ -13,6 +13,12 @@
 | 4 — Ajuste CSS / look | ✅ COMPLETA | page-box adaptativo + PreviewWidget drag fix |
 | 5 — Cross-browser y deploy | ✅ COMPLETA | Chrome + Firefox verificados; build de producción OK |
 
+## Checklist final verificado (actualizado 2026-05-25)
+
+- ✅ Enlace «Información del proyecto» funciona: abre `./proyecto/proyecto.html` en pestaña nueva
+- ✅ Documento HTML con 7 PDFs, 4 fotos de participantes y visor de thumbnails copiado a `public/proyecto/`
+- ✅ Secciones actualizadas: browsers modernos (Chrome/Firefox/Safari/Edge + iPad), tecnología, y nueva sección «Reescritura 2026 con Claude Code»
+
 ## Checklist final verificado
 
 - ✅ Pantalla presentación: thumbnails con popup landscape/portrait/four
