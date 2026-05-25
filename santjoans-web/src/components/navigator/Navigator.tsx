@@ -3,7 +3,8 @@ import { Viewer } from './Viewer.tsx'
 import { DirectionWidget } from './DirectionWidget.tsx'
 import { ZoomWidget } from './ZoomWidget.tsx'
 import { PreviewWidget } from './PreviewWidget.tsx'
-import { ImageButton } from './ImageButton.tsx'
+import { IconButton } from './IconButton.tsx'
+import { IconHelp } from './icons.tsx'
 import { HelpPopup } from './HelpPopup.tsx'
 import { useMosaicStore } from '../../store/mosaicStore.ts'
 import type { MosaicEngine } from '../../engine/MosaicEngine.ts'
@@ -33,13 +34,7 @@ export function Navigator() {
           />
           <PreviewWidget engine={engine} startX={startX} startY={startY} zoomIdx={zoomIdx} />
           <ZoomWidget engine={engine} zoomIdx={zoomIdx} canZoomIn={canZoomIn} canZoomOut={canZoomOut} />
-          <div className="navigator-help-btn">
-            <ImageButton
-              src="./ui/help-icon.png"
-              alt="Ayuda"
-              onClick={() => setHelpOpen(true)}
-            />
-          </div>
+          <IconButton icon={<IconHelp />} alt="Ayuda" onClick={() => setHelpOpen(true)} />
         </div>
       )}
       {helpOpen && <HelpPopup onClose={() => setHelpOpen(false)} />}

@@ -1,4 +1,5 @@
-import { ImageButton } from './ImageButton.tsx'
+import { IconButton } from './IconButton.tsx'
+import { IconArrowUp, IconArrowDown, IconArrowLeft, IconArrowRight, IconHome } from './icons.tsx'
 import type { MosaicEngine } from '../../engine/MosaicEngine.ts'
 
 interface Props {
@@ -14,15 +15,15 @@ export function DirectionWidget({ engine, canMoveLeft, canMoveRight, canMoveUp, 
   return (
     <div className="direction-widget">
       <div className="direction-row">
-        <ImageButton src="./ui/up-icon.png" alt="Arriba" disabled={!canMoveUp} onClick={() => engine.moveUp()} />
+        <IconButton icon={<IconArrowUp />} alt="Arriba" disabled={!canMoveUp} onClick={() => engine.moveUp()} />
       </div>
       <div className="direction-row">
-        <ImageButton src="./ui/left-icon.png" alt="Izquierda" disabled={!canMoveLeft} onClick={() => engine.moveLeft()} />
-        <ImageButton src="./ui/home-icon.png" alt="Reset" disabled={!canHome} onClick={() => engine.homeAction()} />
-        <ImageButton src="./ui/right-icon.png" alt="Derecha" disabled={!canMoveRight} onClick={() => engine.moveRight()} />
+        <IconButton icon={<IconArrowLeft />} alt="Izquierda" disabled={!canMoveLeft} onClick={() => engine.moveLeft()} />
+        <IconButton icon={<IconHome />} alt="Reset" disabled={!canHome} onClick={() => engine.homeAction()} />
+        <IconButton icon={<IconArrowRight />} alt="Derecha" disabled={!canMoveRight} onClick={() => engine.moveRight()} />
       </div>
       <div className="direction-row">
-        <ImageButton src="./ui/down-icon.png" alt="Abajo" disabled={!canMoveDown} onClick={() => engine.moveDown()} />
+        <IconButton icon={<IconArrowDown />} alt="Abajo" disabled={!canMoveDown} onClick={() => engine.moveDown()} />
       </div>
     </div>
   )
