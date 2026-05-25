@@ -1,6 +1,6 @@
 # Estado actual del proyecto
 
-**Última actualización**: 2026-05-25 (Soporte táctil + RWD completados)
+**Última actualización**: 2026-05-25 (Internacionalización ES/CA/EN)
 
 ## Resumen rápido
 
@@ -14,6 +14,7 @@
 | 5 — Cross-browser y deploy | ✅ COMPLETA | Chrome + Firefox verificados; build de producción OK |
 | 6 — Rediseño estético | ✅ COMPLETA | Patrimonio mediterráneo: crema/cobalto/ocre, Google Fonts |
 | 7 — Touch + RWD | ✅ COMPLETA | Pan, pinch-zoom, tap-pick, layout fluido, media queries |
+| 8 — Internacionalización | ✅ COMPLETA | ES/CA/EN; selector en presentación; proyecto.*.html |
 
 ## Funcionalidades implementadas
 
@@ -39,6 +40,16 @@
 - ✅ Imágenes de presentación apiladas en columna en móvil (`@media max-width: 600px`)
 - ✅ Barra de control con `flex-wrap` (fluye a segunda fila si no cabe)
 - ✅ Dos breakpoints CSS: 600 px y 400 px
+
+### Internacionalización (ES/CA/EN)
+- ✅ Selector de idioma (tres botones ES/CA/EN) en cabecera de la pantalla de presentación
+- ✅ Preferencia persistida en `localStorage`; inglés por defecto es español
+- ✅ Toda la app React traducida: título, loading, botón de entrada, botones de dirección/zoom/ayuda, popup de ayuda
+- ✅ Cuerpo largo de la presentación en tres idiomas como JSX en `src/i18n/presentationContent/`
+- ✅ Documento estático `proyecto.html` → tres ficheros hermanos (`proyecto.es.html`, `proyecto.ca.html`, `proyecto.en.html`)
+- ✅ Redirección legacy: `proyecto.html` → `proyecto.es.html` vía meta refresh
+- ✅ Selector de idioma dentro de cada documento estático (paleta cobalto, `aria-current="page"`)
+- ✅ El enlace «Información del proyecto» apunta a `proyecto.${locale}.html`
 
 ### Presentación y documentación
 - ✅ Enlace «Información del proyecto» abre `./proyecto/proyecto.html` en pestaña nueva

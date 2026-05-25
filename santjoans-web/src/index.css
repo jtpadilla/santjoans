@@ -99,6 +99,56 @@ hr { display: none; }
 
 /* ── Presentación ──────────────────────────────────────────── */
 
+.presentation-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--sp-3);
+  margin-bottom: var(--sp-5);
+  padding-bottom: var(--sp-3);
+  border-bottom: 1px solid var(--color-rule);
+}
+
+.presentation-header .page-title {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+  flex: 1;
+}
+
+/* ── Language selector ─────────────────────────────────────── */
+
+.lang-selector {
+  display: flex;
+  gap: var(--sp-1);
+  flex-shrink: 0;
+  margin-top: 6px;
+}
+
+.lang-btn {
+  padding: 4px 9px;
+  font-family: var(--font-sans);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  color: var(--color-cobalt);
+  background: transparent;
+  border: 1px solid var(--color-cobalt);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  letter-spacing: 0.05em;
+  transition: background 120ms, color 120ms;
+  line-height: 1.4;
+}
+
+.lang-btn[aria-pressed='true'] {
+  background: var(--color-cobalt);
+  color: var(--color-surface);
+}
+
+.lang-btn:hover:not([aria-pressed='true']) {
+  background: rgba(31, 74, 122, 0.09);
+}
+
 .presentation-access {
   display: flex;
   align-items: center;
@@ -440,6 +490,15 @@ hr { display: none; }
 
   .page-title {
     font-size: var(--fs-xl);
+  }
+
+  .presentation-header {
+    flex-direction: column;
+    gap: var(--sp-2);
+  }
+
+  .lang-selector {
+    margin-top: 0;
   }
 
   /* Imágenes de la presentación: apiladas en columna */

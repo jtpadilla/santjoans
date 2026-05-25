@@ -93,3 +93,34 @@ div.participantes {
   clear: left;
   margin-bottom: 14px;
 }
+
+/* ── Language switcher ─────────────────────────────────────── */
+
+.lang-switcher {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+
+.lang-switcher a {
+  padding: 4px 10px;
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--color-cobalt);
+  border: 1px solid var(--color-cobalt);
+  border-radius: 4px;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  transition: background 120ms, color 120ms;
+}
+
+.lang-switcher a[aria-current='page'] {
+  background: var(--color-cobalt);
+  color: var(--color-surface);
+}
+
+.lang-switcher a:hover:not([aria-current='page']) {
+  background: rgba(31, 74, 122, 0.09);
+  text-decoration: none;
+}

@@ -1,5 +1,6 @@
 import { IconButton } from './IconButton.tsx'
 import { IconZoomIn, IconZoomOut } from './icons.tsx'
+import { useLocale } from '../../i18n/useLocale.ts'
 import type { MosaicEngine } from '../../engine/MosaicEngine.ts'
 import { ZOOM_MODES } from '../../config/zoomModes.ts'
 import type { ZoomModeIdx } from '../../config/zoomModes.ts'
@@ -12,11 +13,12 @@ interface Props {
 }
 
 export function ZoomWidget({ engine, zoomIdx, canZoomIn, canZoomOut }: Props) {
+  const { m } = useLocale()
   return (
     <div className="zoom-widget">
-      <IconButton icon={<IconZoomIn />} alt="Ampliar" disabled={!canZoomIn} onClick={() => engine.zoomInAction()} />
+      <IconButton icon={<IconZoomIn />} alt={m.altZoomIn} disabled={!canZoomIn} onClick={() => engine.zoomInAction()} />
       <span className="zoom-label">{ZOOM_MODES[zoomIdx].label}</span>
-      <IconButton icon={<IconZoomOut />} alt="Reducir" disabled={!canZoomOut} onClick={() => engine.zoomOutAction()} />
+      <IconButton icon={<IconZoomOut />} alt={m.altZoomOut} disabled={!canZoomOut} onClick={() => engine.zoomOutAction()} />
     </div>
   )
 }
