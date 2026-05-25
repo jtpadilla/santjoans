@@ -61,14 +61,43 @@ const SCREEN_TYPES: ScreenDef[] = [
   },
 ]
 
+function buildMobilePreset(viewportW: number): ScreenDef {
+  const canvasX = Math.max(Math.min(viewportW - 16, 480), 280)
+  const viewerSize = Math.min(canvasX - 20, 360)
+  return {
+    screenWidth: 0, screenHeight: 0,
+    canvasX,
+    imageViewerMaxWidthLandscape: viewerSize,
+    imageViewerMaxWidthPortrait: viewerSize,
+    imageViewerMaxWidthMultiImage: Math.trunc(viewerSize / 3),
+    piezeViewerHeight: viewerSize, piezeViewerWidth: viewerSize,
+    piezeViewerSide: Math.trunc(viewerSize * 0.7),
+    piezePixelsForDetail: '360',
+    piezePixelsForZoom: (idx) => idx <= 3 ? '60' : '360',
+    canvasY() { return Math.trunc(this.canvasX * MODEL_RATIO_X_Y) + 1 },
+  }
+}
+
+function computeScreenType(): ScreenDef {
+  const w = window.innerWidth
+  const h = window.innerHeight
+  if (w < 600) return buildMobilePreset(w)
+  // Orden: mayor → menor para encontrar el mejor ajuste
+  const ordered = [SCREEN_TYPES[3], SCREEN_TYPES[4], SCREEN_TYPES[2], SCREEN_TYPES[1], SCREEN_TYPES[0]]
+  return ordered.find(s => w >= s.screenWidth && h >= s.screenHeight) ?? SCREEN_TYPES[0]
+}
+
 let _current: ScreenDef | null = null
 
 export function getCurrentScreenType(): ScreenDef {
-  if (_current) return _current
-  const w = window.screen.width
-  const h = window.screen.height
-  // Orden original: FULLHD → UXGA → SXGA → XGA → SVGA
-  const ordered = [SCREEN_TYPES[3], SCREEN_TYPES[4], SCREEN_TYPES[2], SCREEN_TYPES[1], SCREEN_TYPES[0]]
-  _current = ordered.find(s => w >= s.screenWidth && h >= s.screenHeight) ?? SCREEN_TYPES[0]
+  if (!_current) _current = computeScreenType()
   return _current
+}
+
+/** Recalcula el perfil desde el viewport actual. Devuelve true si el canvasX cambió. */
+export function refreshScreenType(): boolean {
+  const next = computeScreenType()
+  if (_current && _current.canvasX === next.canvasX) return false
+  _current = next
+  return true
 }

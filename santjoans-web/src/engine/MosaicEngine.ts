@@ -158,6 +158,16 @@ export class MosaicEngine {
   canZoomIn(): boolean    { return this.zoomIdx < ZOOM_MAX_IDX }
   canZoomOut(): boolean   { return this.zoomIdx > ZOOM_MIN_IDX }
 
+  handleResize(): void {
+    const screen = getCurrentScreenType()
+    this.canvas.width  = screen.canvasX
+    this.canvas.height = screen.canvasY()
+    this.applyCanvasTransform()
+    this.redraw()
+    this.scheduleLoad()
+    this.notifyStore()
+  }
+
   getZoomIdx(): ZoomModeIdx { return this.zoomIdx }
   getStartX(): number { return this.startX }
   getStartY(): number { return this.startY }

@@ -90,6 +90,8 @@ export function PreviewWidget({ engine, startX, startY, zoomIdx }: Props) {
       onPointerDown={handlePointerDown}
       onPointerMove={handlePointerMove}
       onPointerUp={handlePointerUp}
+      onPointerCancel={handlePointerUp}
+      style={{ touchAction: 'none' }}
     />
   )
 }
