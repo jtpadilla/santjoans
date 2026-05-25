@@ -7,10 +7,10 @@ import type { ModelEntry } from '../../model/types.ts'
 import { PiezePopup } from './PiezePopup.tsx'
 
 interface Props {
-  engineRef: React.MutableRefObject<MosaicEngine | null>
+  onEngineReady: (engine: MosaicEngine) => void
 }
 
-export function Viewer({ engineRef }: Props) {
+export function Viewer({ onEngineReady }: Props) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const [popupPieze, setPopupPieze] = useState<ModelEntry | null>(null)
   const setLoading = useMosaicStore(s => s.setLoading)
@@ -20,11 +20,11 @@ export function Viewer({ engineRef }: Props) {
     const canvas = canvasRef.current
     if (!canvas) return
     const engine = new MosaicEngine(canvas)
-    engineRef.current = engine
+    onEngineReady(engine)
     engine.setPopupHandler((p: ModelEntry) => setPopupPieze(p))
     const detach = attachPointerHandlers(canvas, engine)
     engine.firstLoad((remaining) => setLoading(remaining))
-    return () => { detach(); engineRef.current = null }
+    return () => { detach() }
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   return (

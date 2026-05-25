@@ -170,8 +170,10 @@ export class MosaicEngine {
     const ctx = this.ctx
     const screen = getCurrentScreenType()
     const mode = ZOOM_MODES[this.zoomIdx]
+    // Resetear a identidad antes de clearRect: ctx.clearRect aplica el transform activo,
+    // pero GWT's clearRect operaba en píxeles ignorando setCoordSize.
+    ctx.setTransform(1, 0, 0, 1, 0, 0)
     ctx.clearRect(0, 0, screen.canvasX, screen.canvasY())
-    // Aplicar sistema de coordenadas mm (replica GWTCanvas.setCoordSize)
     this.applyCanvasTransform()
     for (const view of this.views) {
       view.updateFromModel(

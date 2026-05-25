@@ -4,10 +4,10 @@ export type PiezeClass = 'main' | 'center'
 
 export interface PiezeData {
   readonly name: string
-  readonly x: number
-  readonly y: number
-  readonly miniature_rotation: number
-  readonly detail_rotation: number
+  readonly x: string | number
+  readonly y: string | number
+  readonly miniature_rotation: string | number
+  readonly detail_rotation: string | number
   readonly class: PiezeClass
 }
 

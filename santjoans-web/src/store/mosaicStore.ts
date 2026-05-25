@@ -26,7 +26,7 @@ export const useMosaicStore = create<MosaicState>(set => ({
   canMoveDown: true,
   canZoomIn: true,
   canZoomOut: false,
-  loadingRemaining: 0,
+  loadingRemaining: -1,
   update: (patch) => set(patch),
   setLoading: (n) => set({ loadingRemaining: n }),
 }))

@@ -61,6 +61,11 @@ export function PreviewWidget({ engine, startX, startY, zoomIdx }: Props) {
   function handlePointerDown(e: React.PointerEvent<HTMLCanvasElement>) {
     dragRef.current = true
     ;(e.target as HTMLCanvasElement).setPointerCapture(e.pointerId)
+    const rect = (e.target as HTMLCanvasElement).getBoundingClientRect()
+    const px = e.clientX - rect.left
+    const py = e.clientY - rect.top
+    const [nx, ny] = previewCoordToMain(px, py)
+    engine.setPosition(nx, ny)
   }
 
   function handlePointerMove(e: React.PointerEvent<HTMLCanvasElement>) {
@@ -81,7 +86,7 @@ export function PreviewWidget({ engine, startX, startY, zoomIdx }: Props) {
       ref={canvasRef}
       width={PREVIEW_X}
       height={PREVIEW_Y}
-      style={{ cursor: 'crosshair' }}
+      className="preview-canvas"
       onPointerDown={handlePointerDown}
       onPointerMove={handlePointerMove}
       onPointerUp={handlePointerUp}
