@@ -1,73 +1,59 @@
-# React + TypeScript + Vite
+# santjoans-web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación React del visor interactivo del tapiz de azulejos del Palacio Santjoans.
+Es la reescritura (2026) de la aplicación original en GWT (2011).
+Sitio web: [www.santjoans.es](http://www.santjoans.es)
 
-Currently, two official plugins are available:
+## Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+| Paquete | Versión | Para qué |
+|---|---|---|
+| react, react-dom | ^19 | UI |
+| typescript | ~6.0 | Tipado |
+| vite + @vitejs/plugin-react | ^8 | Build y dev server |
+| zustand | ^5 | Estado global de UI |
+| fast-xml-parser | ^5 | Conversión piezes.xml→JSON en build |
+| vitest | ^4 | Tests unitarios |
 
-## React Compiler
+## Comandos
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install        # primera vez
+npm run dev        # servidor de desarrollo → http://localhost:5173
+npm run build      # build de producción → dist/
+npm run preview    # sirve dist/ → http://localhost:4173
+npm test           # 21 tests unitarios de geometría
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Estructura
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
 ```
+src/
+  config/       constantes, modos de zoom, tipos de pantalla
+  model/        modelo de datos (singletons, cache de imágenes)
+  engine/       motor canvas: MosaicEngine, vistas, geometría, pointer
+  loader/       carga asíncrona de imágenes y transacciones
+  store/        mosaicStore.ts (Zustand)
+  hooks/        useHashRoute.ts
+  components/
+    common/         PopupOverlay
+    presentation/   Presentation (pantalla de bienvenida)
+    navigator/      Navigator, Viewer, widgets de zoom/dirección/preview/popup
+
+public/
+  piezes/       catálogo JSON + tiles JPG (60/360/550px)
+  presentation/ imágenes de la pantalla de bienvenida
+  proyecto/     documento HTML «Información del proyecto» + PDFs
+  ui/           iconos PNG de los botones
+```
+
+El plugin Vite convierte `../santjoans/src/santjoans/public/piezes/piezes.xml`
+a `public/piezes/piezes.json` en cada arranque. Si el XML no está disponible,
+el JSON ya está en `public/piezes/piezes.json` y el build funciona igualmente.
+
+## Deploy
+
+El build genera un sitio completamente estático en `dist/`. Subir su contenido
+a la raíz del dominio. No requiere servidor de aplicaciones.
+
+Documentación completa de la arquitectura y decisiones técnicas en `memory/`.

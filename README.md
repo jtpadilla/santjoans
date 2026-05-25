@@ -1,38 +1,69 @@
-# SANTJOANS
+# Santjoans — Cerámica Zoo-Mórfica del palacio de Santjoans
 
-## Proyecto
-En este repositorio encontrareis el código fuente del proyecto http://www.santjoans.es 
+Visor interactivo del tapiz de azulejos del Palacio Santjoans de Cinctorres (Castellón).
+Sitio web: [www.santjoans.es](http://www.santjoans.es)
 
-## Información general
-Si solo os interesan las imágenes para ilustrar cualquier tipo de obra podéis descargarlas directamente en este [enlace] (http://www.santjoans.es/proyecto.html#imagenes).
-Si tenéis curiosidad en los aspectos mas generales de porque se realizo este proyecto, como se ejecuto y otros datos generales, podéis seguir este [enlace](http://www.santjoans.es/proyecto.html).
-Las distintas entradas del blog con todos las noticias relacionadas con el proyecto, las encontrareis siguiendo siguiente [enlace](http://jtpadilla.blogspot.com/search/label/santjoans).
+## El proyecto
 
-## Información para desarrolladores
-Esta aplicación se termino de desarrollar con la versión 2.1.1 de GWT y por tanto utiliza las posibilidades que ofrecía dicha versión.
+El palacio de Santjoans alberga en su planta noble un pavimento de cerámica zoo-mórfica
+fabricado en las reales fábricas de Valencia en la segunda mitad del s.XVIII.
+Este proyecto nació en **2010** con el objetivo de preservarlo digitalmente y facilitar
+su disfrute al público.
 
-Dependencias:
-  * En aquel momento no existía soporte para Canvas en el SDK por lo que se utilizaron librerías [externas](http://code.google.com/p/google-web-toolkit-incubator/) que han dado muy buen resultado (creo que era la incubadora de las que actualmente se integran en el SDK).
-  * Para la carga de imagenes asincrona utilice [gwt-image-loader](http://code.google.com/p/gwt-image-loader/).
-He verificado que se puede compilar y funciona correctamente con la ultima versión (version 2.4 en el momento de la plublicación del codigo).
+El estudio fotográfico y documental, junto con la primera versión de la aplicación web,
+fueron presentados públicamente el 11 de agosto de **2010** en el Antic Escorxador de Cinctorres.
+La aplicación alcanzó su versión definitiva en **marzo de 2011**, con más de 400 piezas
+zoo-mórficas digitalizadas.
 
-Cuando inicie el desarrollo la decisión de utilizar HTML5 en lugar de Flash no fue facil ya que algunos navegaores todavia no soportaban el Canvas y parecía que me metía en un gran lió, si embargo parece que nuestro amigo Jobs tenia razon.
+En **2026** se realizó una actualización tecnológica completa de la aplicación web —sin cambios
+en el contenido ni en las imágenes— para garantizar su funcionamiento a largo plazo.
 
-Naturalmente hay muchas cosas que se han quedado en el tintero, pero desgraciadamente ahora no tengo demesiado tiempo. 
+Más información: [www.santjoans.es/proyecto/proyecto.html](http://www.santjoans.es/proyecto/proyecto.html)
 
-Algunas de estas cosas son:
-  * Adaptarlo a las versiones recientes de GWT
-  * Adaptarlo para su correcto funcionamiento en tables de Android y IPad
-  * Mejorar el aspecto general (claramente no se mucho de diseñar interfaces)
+---
 
-## Ejecutandolo desde Eclipse
-Para ejecutar esta aplicación desde Eclipse hay que tener en cuenta un par de cosas (para usuarios con experiencia en GWT):
-  * Hay que seleccionar el fichero Santjoans.html como punto de entrada de la lista que se nos ofrecera.
-  * La ejecución en el modo Hosted resulta muy pesada y hay que reservarla para depuración. Primero compilar y despues en lugar de abrir la URL que nos proporciona (algo asi como http://127.0.0.1:8888/Santjoans.html?gwt.codesvr=127.0.0.1:9997) abrir (http://127.0.0.1:8888/Santjoans.html) que ejecutara la versión estática compilada.
+## Estructura del repositorio
 
-## Una cosa mas
-La verdad es que mientras trabajaba en este proyecto no pensé en que algún día lo publicaría en código abierto así que los comentarios que encontrareis están pensados para uso propio que para terceros (espero que no haya escondida por ahí dentro ninguna sorpresa).
+```
+santjoans/      ← aplicación ORIGINAL (2011) en GWT/Java. Referencia histórica.
+santjoans-web/  ← aplicación ACTUAL (2026) en React + TypeScript + Vite.
+```
 
-También confieso que es la primera aplicación que desarrollo que se ejecuta en un navegador y he afrontado este proyecto mas como un programador convencional que como un programador Web (creo que se nota en el codigo) lo cual ha sido posible gracias a este fantástico producto llamado [GWT](http://www.gwtproject.org/). 
+---
 
-Ahora ya no veo el navegador como un renderizador de paginas si no un potente runtime para ejecutar complejas aplicaciones.
+## Aplicación actual: `santjoans-web/`
+
+Stack: **React 19 + TypeScript + Vite + Zustand + Vitest**
+
+```bash
+cd santjoans-web
+npm install
+npm run dev      # servidor de desarrollo en http://localhost:5173
+npm run build    # build de producción en dist/
+npm test         # 21 tests unitarios de geometría
+```
+
+El build genera un sitio completamente estático (carpeta `dist/`) que se puede
+servir desde cualquier servidor HTTP o plataforma de hosting estático.
+
+---
+
+## Aplicación original: `santjoans/`
+
+Desarrollada en **GWT 2.1.1** (Google Web Toolkit). Conservada como referencia
+histórica y para consulta del algoritmo original de renderizado canvas.
+
+Dependencias originales:
+- [google-web-toolkit-incubator](http://code.google.com/p/google-web-toolkit-incubator/) — soporte Canvas (anterior a su inclusión en el SDK)
+- [gwt-image-loader](http://code.google.com/p/gwt-image-loader/) — carga asíncrona de imágenes
+
+Para compilar desde Eclipse: seleccionar `Santjoans.html` como punto de entrada.
+Una vez compilado, abrir `http://127.0.0.1:8888/Santjoans.html` (sin el parámetro
+`gwt.codesvr`) para ejecutar la versión estática compilada.
+
+---
+
+## Licencia de las imágenes
+
+Las imágenes de las piezas zoo-mórficas están publicadas bajo licencia
+[Creative Commons BY-NC 3.0](http://creativecommons.org/licenses/by-nc/3.0/).

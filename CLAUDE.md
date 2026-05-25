@@ -139,6 +139,12 @@ santjoans-web/public/
     550/{main,center}/*.jpg   364+70 tiles a 550px
   ui/*.png                   9 iconos de botones
   presentation/*.png/jpg     17 imágenes de la pantalla de bienvenida
+  proyecto/
+    proyecto.html             documento «Información del proyecto» (enlazado desde Presentation.tsx)
+    proyecto.css              estilos del documento
+    thumbnailviewer.*         visor de thumbnails (Dynamic Drive, 2011)
+    *.jpg                     4 fotos de los participantes
+    *.pdf                     7 documentos PDF (estudio, diagramas, presentaciones)
   bkg.png                    fondo del body
   grano.png                  textura
   miniatura.png              imagen del minimapa (PreviewWidget)
