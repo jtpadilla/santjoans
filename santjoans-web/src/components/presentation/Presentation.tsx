@@ -126,7 +126,6 @@ export function Presentation({ loadingRemaining, onEnterNavigator }: Props) {
 
       <div className="presentation-footer-links">
         <a href="./proyecto/proyecto.html" target="_blank" rel="noreferrer" className="presentation-info-link">Información del proyecto</a>
-        <a href="http://jtpadilla.blogspot.com/search/label/santjoans" target="_blank" rel="noreferrer" className="presentation-info-link">Noticias</a>
       </div>
 
       {popup.mode === 'landscape' && popup.src && (
