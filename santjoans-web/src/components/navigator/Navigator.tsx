@@ -29,6 +29,7 @@ export function Navigator() {
             canMoveRight={canMoveRight}
             canMoveUp={canMoveUp}
             canMoveDown={canMoveDown}
+            canHome={canZoomOut}
           />
           <PreviewWidget engine={engine} startX={startX} startY={startY} zoomIdx={zoomIdx} />
           <ZoomWidget engine={engine} zoomIdx={zoomIdx} canZoomIn={canZoomIn} canZoomOut={canZoomOut} />

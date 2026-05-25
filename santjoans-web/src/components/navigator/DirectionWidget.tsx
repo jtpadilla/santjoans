@@ -7,9 +7,10 @@ interface Props {
   canMoveRight: boolean
   canMoveUp: boolean
   canMoveDown: boolean
+  canHome: boolean
 }
 
-export function DirectionWidget({ engine, canMoveLeft, canMoveRight, canMoveUp, canMoveDown }: Props) {
+export function DirectionWidget({ engine, canMoveLeft, canMoveRight, canMoveUp, canMoveDown, canHome }: Props) {
   return (
     <div className="direction-widget">
       <div className="direction-row">
@@ -17,7 +18,7 @@ export function DirectionWidget({ engine, canMoveLeft, canMoveRight, canMoveUp, 
       </div>
       <div className="direction-row">
         <ImageButton src="./ui/left-icon.png" alt="Izquierda" disabled={!canMoveLeft} onClick={() => engine.moveLeft()} />
-        <ImageButton src="./ui/home-icon.png" alt="Reset" onClick={() => engine.setPosition(0, 0)} />
+        <ImageButton src="./ui/home-icon.png" alt="Reset" disabled={!canHome} onClick={() => engine.homeAction()} />
         <ImageButton src="./ui/right-icon.png" alt="Derecha" disabled={!canMoveRight} onClick={() => engine.moveRight()} />
       </div>
       <div className="direction-row">

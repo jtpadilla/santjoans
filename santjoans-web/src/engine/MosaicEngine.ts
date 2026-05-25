@@ -59,6 +59,16 @@ export class MosaicEngine {
   zoomInAction(): void { this.setZoom(zoomIn(this.zoomIdx)) }
   zoomOutAction(): void { this.setZoom(zoomOut(this.zoomIdx)) }
 
+  homeAction(): void {
+    this.zoomIdx = 0
+    this.startX = 0
+    this.startY = 0
+    this.applyCanvasTransform()
+    this.redraw()
+    this.notifyStore()
+    this.scheduleLoad()
+  }
+
   private doSetZoom(newIdx: ZoomModeIdx): void {
     const oldMode = ZOOM_MODES[this.zoomIdx]
     const newMode = ZOOM_MODES[newIdx]
