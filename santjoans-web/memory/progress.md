@@ -1,6 +1,6 @@
 # Estado actual del proyecto
 
-**Última actualización**: 2026-05-25 (Internacionalización ES/CA/EN)
+    **Última actualización**: 2026-05-25 (Fix canvas negro + RWD proyecto + GitHub Pages)
 
 ## Resumen rápido
 
@@ -15,6 +15,9 @@
 | 6 — Rediseño estético | ✅ COMPLETA | Patrimonio mediterráneo: crema/cobalto/ocre, Google Fonts |
 | 7 — Touch + RWD | ✅ COMPLETA | Pan, pinch-zoom, tap-pick, layout fluido, media queries |
 | 8 — Internacionalización | ✅ COMPLETA | ES/CA/EN; selector en presentación; proyecto.*.html |
+| 9 — GitHub Pages | ✅ COMPLETA | Deploy automático vía GitHub Actions en jtpadilla/santjoans |
+| 10 — RWD proyecto.html | ✅ COMPLETA | CSS fluido + viewport meta tag en los 3 HTML estáticos |
+| 11 — Fix canvas negro | ✅ COMPLETA | Race condition React/motor eliminada; motor propietario de canvas.width/height |
 
 ## Funcionalidades implementadas
 
@@ -90,7 +93,28 @@ El rectángulo que muestra el área visible en el minimapa sigue siendo rojo. Po
 actualizarse a cobalto para seguir el sistema de diseño, pero es un cambio menor
 pendiente para sesión futura.
 
+## Issues resueltos (historial)
+
+### Canvas en negro tras rotación / resize ← RESUELTO 2026-05-25
+Race condition: `onResize` llamaba `engine.handleResize()` (escribe canvas.width/height + transform + redraw)
+y luego `setCanvasSize(...)` disparaba un re-render que sobreescribía los atributos JSX width/height,
+reseteando el bitmap. Solución: eliminar `canvasSize` state de Viewer.tsx y los atributos JSX;
+el motor inicializa en el constructor y es el único propietario de canvas.width/height.
+
 ## Para hacer el deploy
+
+### GitHub Pages (activo)
+
+```bash
+git push origin rewrite-react:master   # dispara el workflow de GitHub Actions
+```
+
+URL pública: https://jtpadilla.github.io/santjoans/
+
+**Nota**: solo pushes a `master` despliegan. El workflow escucha `rewrite-react` pero
+GitHub Pages rechaza el deploy desde esa rama (regla de protección del entorno).
+
+### Deploy manual en santjoans.es
 
 ```bash
 cd santjoans-web

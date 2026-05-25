@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { MosaicEngine } from '../../engine/MosaicEngine.ts'
 import { attachPointerHandlers } from '../../engine/pointer.ts'
-import { getCurrentScreenType, refreshScreenType } from '../../config/screenType.ts'
+import { refreshScreenType } from '../../config/screenType.ts'
 import { useMosaicStore } from '../../store/mosaicStore.ts'
 import type { ModelEntry } from '../../model/types.ts'
 import { PiezePopup } from './PiezePopup.tsx'
@@ -15,10 +15,6 @@ export function Viewer({ onEngineReady }: Props) {
   const [popupPieze, setPopupPieze] = useState<ModelEntry | null>(null)
   const setLoading = useMosaicStore(s => s.setLoading)
 
-  // canvasSize drives re-render so React syncs width/height attributes
-  const initScreen = getCurrentScreenType()
-  const [canvasSize, setCanvasSize] = useState({ w: initScreen.canvasX, h: initScreen.canvasY() })
-
   useEffect(() => {
     const canvas = canvasRef.current
     if (!canvas) return
@@ -31,8 +27,6 @@ export function Viewer({ onEngineReady }: Props) {
     function onResize() {
       if (refreshScreenType()) {
         engine.handleResize()
-        const s = getCurrentScreenType()
-        setCanvasSize({ w: s.canvasX, h: s.canvasY() })
       }
     }
     window.addEventListener('resize', onResize)
@@ -49,8 +43,6 @@ export function Viewer({ onEngineReady }: Props) {
     <>
       <canvas
         ref={canvasRef}
-        width={canvasSize.w}
-        height={canvasSize.h}
         className="viewer-canvas"
         style={{ display: 'block' }}
       />

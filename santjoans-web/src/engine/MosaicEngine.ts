@@ -37,6 +37,9 @@ export class MosaicEngine {
     this.canvas = canvas
     this.ctx = canvas.getContext('2d')!
     this.views = [new MainView(this.ctx), new CenterView(this.ctx)]
+    const screen = getCurrentScreenType()
+    this.canvas.width = screen.canvasX
+    this.canvas.height = screen.canvasY()
   }
 
   setPopupHandler(handler: PiezePopupHandler): void {
