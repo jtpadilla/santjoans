@@ -34,14 +34,15 @@ store/mosaicStore.ts         ← config/zoomModes (ZoomModeIdx)
 hooks/useHashRoute.ts        ← sin dependencias de proyecto
 
 components/common/PopupOverlay.tsx       ← React
-components/navigator/ImageButton.tsx     ← React
+components/navigator/icons.tsx           ← React (8 SVGs inline)
+components/navigator/IconButton.tsx      ← React, icons
 components/navigator/PiezePopup.tsx      ← config/screenType, model/types, loader/imageLoader, PopupOverlay
 components/navigator/PreviewWidget.tsx   ← config/(zoomModes,constants), engine/MosaicEngine, React
-components/navigator/DirectionWidget.tsx ← engine/MosaicEngine, ImageButton
-components/navigator/ZoomWidget.tsx      ← config/zoomModes, engine/MosaicEngine, ImageButton
+components/navigator/DirectionWidget.tsx ← engine/MosaicEngine, IconButton, icons
+components/navigator/ZoomWidget.tsx      ← config/zoomModes, engine/MosaicEngine, IconButton, icons
 components/navigator/HelpPopup.tsx       ← PopupOverlay
 components/navigator/Viewer.tsx          ← engine/MosaicEngine, engine/pointer, config/screenType, store/mosaicStore, PiezePopup
-components/navigator/Navigator.tsx       ← Viewer, DirectionWidget, ZoomWidget, PreviewWidget, ImageButton, HelpPopup, store/mosaicStore
+components/navigator/Navigator.tsx       ← Viewer, DirectionWidget, ZoomWidget, PreviewWidget, IconButton, icons, HelpPopup, store/mosaicStore
 components/presentation/Presentation.tsx ← PopupOverlay
 App.tsx                                  ← hooks/useHashRoute, Presentation, Navigator, model/modelLoader, store/mosaicStore
 main.tsx                                 ← App
@@ -53,7 +54,7 @@ main.tsx                                 ← App
 
 - **constants.ts** — Todas las constantes numéricas de `IConfiguration.java`: tamaños de piezas en mm, límites del modelo, coordenadas de la zona central
 - **zoomModes.ts** — Tabla de los 6 modos de zoom (100%–1600%). Cada entrada tiene `unitWidth`, `unitHeight`, `steepX/Y` (paso de pan), `millimetersWidth/Height` y `getPiezePixels()`. Helpers `zoomIn/zoomOut` navegan por índice 0..5
-- **screenType.ts** — 5 configuraciones de pantalla (SVGA/XGA/SXGA/FULLHD/UXGA). `getCurrentScreenType()` es un singleton lazy que lee `window.screen.width/height`. Devuelve tamaños de canvas, viewer y resolución de tile por nivel de zoom
+- **screenType.ts** — 5 configuraciones de pantalla (SVGA/XGA/SXGA/FULLHD/UXGA) + 1 preset «mobile» (viewport <600px, canvasX dinámico = `viewport – 16`). `getCurrentScreenType()` es un singleton lazy que lee `window.innerWidth/innerHeight` (no `window.screen`). `refreshScreenType()` recalcula desde el viewport actual y devuelve `true` si `canvasX` cambió — lo llama `Viewer.tsx` en el listener de `resize`/`orientationchange`. Devuelve tamaños de canvas, viewer y resolución de tile por nivel de zoom
 - **strings.ts** — 4 strings de error/UI en español
 
 ### `model/`
@@ -94,10 +95,11 @@ main.tsx                                 ← App
   - `onPointerDown/Move/Up(x,y)` — drag continuo (llamados desde pointer.ts)
   - `onDoubleClick(x,y)` — busca pieza bajo el click y llama `onPiezePopup`
   - `canMoveLeft/Right/Up/Down`, `canZoomIn/Out` — queries para deshabilitar botones
+  - `handleResize()` — recalcula canvas.width/height desde `getCurrentScreenType()`, re-aplica transform, redibuja y dispara `scheduleLoad()`. Lo llama `Viewer.tsx` tras un `resize`/`orientationchange`
   - `notifyStore()` — actualiza Zustand para re-renderizar controles
   - `applyCanvasTransform()` — `ctx.setTransform(canvasX/mmW, 0, 0, canvasY/mmH, 0, 0)` — el equivalente de `GWTCanvas.setCoordSize`
 
-- **pointer.ts** — `attachPointerHandlers(canvas, engine)`: conecta `pointerdown/move/up/leave + dblclick` al canvas y delega en el engine. Devuelve función de limpieza. Usa `setPointerCapture` para capturar el movimiento aunque el puntero salga del canvas
+- **pointer.ts** — `attachPointerHandlers(canvas, engine)`: gestión completa de punteros (ratón + táctil + stylus). `touch-action: none` en el canvas. Mapa de punteros activos + estado `mode: 'idle'|'pan'|'pinch'`. **Pan** (1 dedo): delega en `engine.onPointerDown/Move/Up`. **Pinch** (2 dedos): cancela pan, sigue distancia euclídea, llama `engine.zoomInAction/zoomOutAction` cuando el ratio cruza el umbral 1.35×. **Tap-pick** (touch/pen ≤10px ≤250ms): llama `engine.onDoubleClick()`. **Desktop**: `dblclick` nativo sigue siendo el trigger de pick (excluido del tap-pick porque `pointerType === 'mouse'`). `pointercancel` limpia el estado completamente. Devuelve función de limpieza.
 
 ### `loader/`
 
@@ -118,9 +120,9 @@ main.tsx                                 ← App
 
 - **PopupOverlay.tsx** — Modal: fondo semitransparente que cierra al hacer click fuera o pulsar Escape. Contenido centrado en pantalla
 - **Presentation.tsx** — Pantalla de bienvenida. 3 thumbnails (palacio/piezas/museo), escudos e indio en la cabecera. Popup de imágenes al hacer click. Contador de carga + botón "Ver pavimento"
-- **Viewer.tsx** — Monta el canvas con las dimensiones de `getCurrentScreenType()`. En `useEffect`: crea `MosaicEngine`, llama `attachPointerHandlers`, llama `firstLoad`. Muestra `PiezePopup` cuando el engine lo pide
+- **Viewer.tsx** — Monta el canvas con las dimensiones de `getCurrentScreenType()`. En `useEffect`: crea `MosaicEngine`, llama `attachPointerHandlers`, llama `firstLoad`. Registra listeners en `window` para `resize` y `orientationchange`: si `refreshScreenType()` devuelve `true`, llama `engine.handleResize()` y actualiza el state `canvasSize` para re-renderizar los atributos `width/height` del canvas. Muestra `PiezePopup` cuando el engine lo pide
 - **Navigator.tsx** — Layout: Viewer (izquierda) + panel de controles (derecha: preview, dirección, zoom, help). Lee el store de Zustand para pasar props a los controles. El engine se pasa por ref
-- **PreviewWidget.tsx** — Canvas de 200×97px con `miniatura.png` + rect rojo del viewport. El rect se calcula en mm proyectados al espacio del preview. Drag para mover el viewport
+- **PreviewWidget.tsx** — Canvas de 200×97px con `miniatura.png` + rect rojo del viewport. El rect se calcula en mm proyectados al espacio del preview. Drag para mover el viewport. `touch-action: none` y handler `onPointerCancel` para soporte táctil correcto
 - **PiezePopup.tsx** — Modal con canvas. Al montar, carga la imagen detallada, dibuja en el canvas con `translate + rotate(detailRadians) + drawImage`
 
 ## Flujo de datos del render principal

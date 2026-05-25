@@ -117,10 +117,11 @@ santjoans-web/src/
     common/         PopupOverlay
     presentation/   Presentation (pantalla de bienvenida)
     navigator/      Navigator, Viewer, DirectionWidget, ZoomWidget,
-                    PreviewWidget, PiezePopup, HelpPopup, ImageButton
+                    PreviewWidget, PiezePopup, HelpPopup,
+                    IconButton, icons.tsx (SVGs inline)
   App.tsx           routing hash → Presentation | Navigator
   main.tsx          entry point
-  index.css         estilos globales
+  index.css         estilos globales con tokens CSS y media queries
 ```
 
 Ver `memory/architecture.md` para el árbol de dependencias completo y la
@@ -137,18 +138,19 @@ santjoans-web/public/
     60/{main,center}/*.jpg    364+70 tiles a 60px
     360/{main,center}/*.jpg   364+70 tiles a 360px
     550/{main,center}/*.jpg   364+70 tiles a 550px
-  ui/*.png                   9 iconos de botones
   presentation/*.png/jpg     17 imágenes de la pantalla de bienvenida
   proyecto/
     proyecto.html             documento «Información del proyecto» (enlazado desde Presentation.tsx)
-    proyecto.css              estilos del documento
+    proyecto.css              estilos del documento (misma paleta que la app)
     thumbnailviewer.*         visor de thumbnails (Dynamic Drive, 2011)
     *.jpg                     4 fotos de los participantes
     *.pdf                     7 documentos PDF (estudio, diagramas, presentaciones)
-  bkg.png                    fondo del body
-  grano.png                  textura
   miniatura.png              imagen del minimapa (PreviewWidget)
+  favicon.svg
 ```
+
+Nota: no hay carpeta `ui/` (los iconos PNG fueron sustituidos por SVG inline en `icons.tsx`).
+`bkg.png` y `grano.png` fueron eliminados (la app usa `background-color` con token CSS).
 
 ---
 
@@ -192,6 +194,10 @@ Están documentadas con detalle en `memory/decisions.md`. Resumen:
 - **AbortController** para cancelar cargas — no volver a la arquitectura TaskChain
 - **Modelo fuera de Zustand** — los singletons son read-only tras boot, meterlos en Zustand causaría re-renders innecesarios
 - **Sin detección de browser** — la del original era defectuosa (excluía Chrome)
+- **`touch-action: none`** en canvas principal y minimapa — no `manipulation`; permite interceptar todos los gestos táctiles
+- **Pinch-to-zoom discreta** — 6 niveles discretos (no zoom continuo); el pinch hace snap al nivel más cercano
+- **`window.innerWidth` para screenType** — no `window.screen`; el preset se recalcula en resize/orientationchange
+- **SVG inline para iconos** — no assets PNG externos; heredan color del tema vía `currentColor`
 
 ---
 

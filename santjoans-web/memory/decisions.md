@@ -90,17 +90,73 @@ o se debe resetear el transform antes. En `MosaicEngine.redraw()` el orden es:
 
 ---
 
-## Pointer Events en lugar de Mouse Events
+## Pointer Events, multi-touch y soporte táctil
 
-**Decisión**: `src/engine/pointer.ts` usa `pointerdown/pointermove/pointerup/pointerleave`
-en lugar de `mousedown/mousemove/mouseup`.
+**Decisión**: `src/engine/pointer.ts` usa `pointerdown/pointermove/pointerup/pointercancel/pointerleave`
+con `touch-action: none` y un mapa de punteros activos para manejar pan (1 dedo),
+pinch-zoom (2 dedos) y tap-pick (táctil).
 
 **Por qué**: Pointer Events cubren mouse + touch + stylus de forma unificada. Con
 `canvas.setPointerCapture(e.pointerId)` se garantiza que los eventos `move` y `up`
 llegan al canvas aunque el puntero salga del elemento — esto resuelve el problema que
 el original manejaba con `NativePreviewHandler` global de GWT.
-`touch-action: manipulation` en el canvas previene el scroll del navegador durante
-el drag y hace que `dblclick` funcione en iOS/Android.
+
+`touch-action: none` (no `manipulation`) es necesario para interceptar completamente
+el scroll/zoom nativo del navegador durante arrastre en canvas. `manipulation` dejaba
+al navegador tomar el control en ciertos gestos.
+
+El pinch-to-zoom mapea a los **6 niveles discretos existentes** (no zoom continuo).
+Umbral 1.35×: al separar los dedos un 35%, hace `zoomInAction()`; al juntarlos,
+`zoomOutAction()`. Tras cada step, se resetea el baseline de distancia para permitir
+pasos consecutivos. Decisión de mantener los niveles discretos: cambia la arquitectura
+lo mínimo y preserva el sistema de tiles (cada nivel tiene su resolución de imagen).
+
+El **tap-pick** solo se activa en `pointerType !== 'mouse'`: si la distancia
+desde el punto de down al up es <10px y el tiempo <250ms, se llama
+`engine.onDoubleClick()`. En desktop el pick sigue siendo `dblclick` nativo.
+Esta distinción evita que clicks normales de ratón abran popups.
+
+`pointercancel` limpia completamente el estado (importante cuando iOS interrumpe
+el touch por una llamada entrante, notificación, etc.).
+
+---
+
+## Canvas responsive: redimensionado al viewport
+
+**Decisión**: `screenType.ts` usa `window.innerWidth/innerHeight` (viewport) en lugar
+de `window.screen.width/height` (pantalla física). `refreshScreenType()` recalcula el
+perfil activo y lo compara por `canvasX` para determinar si cambió. `Viewer.tsx` escucha
+`resize` y `orientationchange` en `window` y llama `engine.handleResize()` cuando el
+perfil cambia. `MosaicEngine.handleResize()` actualiza `canvas.width/height` e redibuja.
+
+**Por qué**: `window.screen` es el tamaño físico del monitor — en móvil puede ser
+el tamaño de la pantalla entera aunque el viewport del navegador sea la mitad (barra
+de URL, teclado, etc.). `innerWidth` es el viewport real. Usar `screen` causaba que
+móviles con pantalla de 1080px recibieran el perfil FullHD (canvas de 1450px) aunque
+el área visible fuera de 375px.
+
+El redimensionado es seguro porque las coordenadas del modelo son mm físicos; solo
+el `setTransform` (ratio canvasPx/mm) cambia. No es necesario reiniciar el engine
+ni el estado (posición, zoom, cache de imágenes).
+
+El preset «mobile» (viewport <600px) construye el `canvasX` como `min(viewport - 16, 480)`
+para llenar la pantalla con un margen mínimo. Los presets fijos (SVGA→FullHD) siguen
+activos para escritorio/tablet.
+
+---
+
+## Iconos SVG inline en lugar de PNG externos
+
+**Decisión**: Los 9 PNG de `public/ui/` (heredados de 2011, orígenes heterogéneos,
+uno de ellos 30×30 en lugar de 48×48) fueron reemplazados por 8 iconos SVG inline
+en `src/components/navigator/icons.tsx`.
+
+**Por qué**: Los PNG no tenían color de marca (no eran cobalt), eran pixelados en
+displays retina, tenían tamaños inconsistentes y no respondían al `currentColor`
+de CSS. Los SVG inline son vectoriales (crisp a cualquier DPR), heredan el color
+del token `--color-cobalt` vía `color: currentColor`, tienen peso mínimo (no son
+assets externos), y se pueden deshabilitar visualmente con `color: var(--color-rule)`
+sin opacidad burda.
 
 ---
 

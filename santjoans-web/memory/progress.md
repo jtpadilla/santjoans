@@ -1,6 +1,6 @@
 # Estado actual del proyecto
 
-**Última actualización**: 2026-05-25 (Fase 5 completada — lista para deploy)
+**Última actualización**: 2026-05-25 (Soporte táctil + RWD completados)
 
 ## Resumen rápido
 
@@ -12,45 +12,72 @@
 | 3 — Prueba visual e integración | ✅ COMPLETA | Verificado con Playwright en todos los niveles |
 | 4 — Ajuste CSS / look | ✅ COMPLETA | page-box adaptativo + PreviewWidget drag fix |
 | 5 — Cross-browser y deploy | ✅ COMPLETA | Chrome + Firefox verificados; build de producción OK |
+| 6 — Rediseño estético | ✅ COMPLETA | Patrimonio mediterráneo: crema/cobalto/ocre, Google Fonts |
+| 7 — Touch + RWD | ✅ COMPLETA | Pan, pinch-zoom, tap-pick, layout fluido, media queries |
 
-## Checklist final verificado (actualizado 2026-05-25)
+## Funcionalidades implementadas
 
-- ✅ Enlace «Información del proyecto» funciona: abre `./proyecto/proyecto.html` en pestaña nueva
-- ✅ Documento HTML con 7 PDFs, 4 fotos de participantes y visor de thumbnails copiado a `public/proyecto/`
-- ✅ Secciones actualizadas: browsers modernos (Chrome/Firefox/Safari/Edge + iPad), tecnología, y nueva sección «Reescritura 2026 con Claude Code»
+### Interacción — escritorio
+- ✅ Pan con arrastre del ratón
+- ✅ Pan con botones N/S/E/O (se deshabilitan en bordes)
+- ✅ Zoom +/– con botones (6 niveles: 100%–1600%)
+- ✅ Botón Home: resetea a zoom 100% + posición (0,0)
+- ✅ Double-click sobre pieza → popup con detalle de la pieza
 
-## Checklist final verificado
+### Interacción — táctil (tablet y móvil)
+- ✅ Pan con un dedo (arrastrar)
+- ✅ Pinch con dos dedos → zoom in/out (snap a los 6 niveles discretos)
+- ✅ Tap simple sobre pieza → popup con detalle
+- ✅ `touch-action: none` en canvas principal y minimapa (sin interferencia del navegador)
+- ✅ `pointercancel` manejado correctamente (drag no queda colgado)
+- ✅ Botones ≥ 44 px de área táctil (mínimo iOS HIG / Material)
 
-- ✅ Pantalla presentación: thumbnails con popup landscape/portrait/four
-- ✅ Contador de carga visible y decrementa
-- ✅ Botón "Ver pavimento" aparece al finalizar la carga
-- ✅ Mosaico renderiza en canvas a 100%
-- ✅ Pan con drag del ratón funciona
-- ✅ Pan con botones N/S/E/O funciona
-- ✅ Botones se deshabilitan en bordes del mosaico
-- ✅ Reset (home) vuelve a posición (0,0)
-- ✅ Zoom in hasta 1600%, tiles de mayor resolución cargan progresivamente
-- ✅ Zoom out hasta 100%
-- ✅ Tiles asíncronos: rects grises mientras cargan, imagen al llegar
-- ✅ Doble click en pieza → popup con canvas rotado al detailRotation
-- ✅ Minimapa: imagen de miniatura.png + rect rojo del viewport
-- ✅ Drag en el minimapa mueve el viewport (click también mueve)
-- ✅ Botón help → popup de ayuda
-- ✅ Hash routing: `#presentation` y `#navigation` funcionan
-- ✅ Recargar en `#navigation` entra directamente al navegador
-- ✅ Cross-browser: Chrome (Google Chrome via Playwright)
-- ✅ Cross-browser: Firefox (Playwright Firefox 1522)
-- ⏳ Cross-browser: Safari, Edge — requieren macOS/Windows, testear manualmente en producción
+### Responsive Web Design
+- ✅ Pantalla de presentación fluida (`max-width: 700px`, sin scroll horizontal en móvil)
+- ✅ Canvas redimensiona al viewport (`window.innerWidth/innerHeight`), reacciona a resize y orientationchange
+- ✅ Preset «mobile» para viewport < 600 px (canvas dinámico viewport – 16 px)
+- ✅ Imágenes de presentación apiladas en columna en móvil (`@media max-width: 600px`)
+- ✅ Barra de control con `flex-wrap` (fluye a segunda fila si no cabe)
+- ✅ Dos breakpoints CSS: 600 px y 400 px
+
+### Presentación y documentación
+- ✅ Enlace «Información del proyecto» abre `./proyecto/proyecto.html` en pestaña nueva
+- ✅ Documento con 7 PDFs, 4 fotos, visor de thumbnails; actualizado con sección «Reescritura 2026»
+- ✅ Secciones obsoletas de browsers eliminadas; stack React actualizado
+- ✅ Historial del blog de noticias incorporado como resumen en el propio documento
+
+### Rediseño estético «Patrimonio mediterráneo»
+- ✅ Paleta crema/cobalto/ocre con tokens CSS (`--color-*`, `--font-*`, `--sp-*`)
+- ✅ Google Fonts: Cormorant Garamond (serif, títulos) + Inter (sans, cuerpo)
+- ✅ Iconos SVG inline en stroke cobalto (sustituyen los PNG de 2011)
+- ✅ Layout con secciones, sin `<hr>` ni floats manuales
+- ✅ Botones CTA, ghost, disabled coherentes con el sistema de diseño
+
+### Motor canvas
+- ✅ Renderizado idéntico al original GWT (coordenadas mm, `setTransform`)
+- ✅ Hit-testing de piezas (MainView + CenterView)
+- ✅ Minimapa con rect de viewport
+- ✅ Carga asíncrona y cancelable (AbortController)
+- ✅ `handleResize()` en MosaicEngine: redimensiona canvas, re-aplica transform, recarga tiles
+
+## Checklist de verificación
+
+- ✅ `npm test` → 21 tests de geometría passing
+- ✅ `npm run build` → limpio, ~70 KB gzip
+- ✅ Escritorio: pan ratón, dblclick-pick, zoom, home, minimapa
+- ✅ Móvil (Chrome DevTools): pan un dedo, pinch-zoom, tap-pick, layout sin overflow
+- ⏳ Safari/Edge: pendiente de verificación manual en dispositivos reales
 
 ## Issues conocidos / no bloqueantes
 
-### CSS background en subdirectorio
-`index.css` usa `url('/bkg.png')` con ruta absoluta. Funciona en raíz del dominio (santjoans.es).
-Si se sirviera en subdirectorio fallaría — no es un problema real.
-
 ### steepX/steepY = 0 en zoom 0 (100%)
-Los botones de dirección no mueven en zoom 100% (el mosaico cabe completo).
+Los botones de dirección no mueven en zoom 100% (el mosaico cabe completo en el canvas).
 Es el mismo comportamiento que el original GWT — no es un bug.
+
+### Minimapa: rect de viewport en rojo
+El rectángulo que muestra el área visible en el minimapa sigue siendo rojo. Podría
+actualizarse a cobalto para seguir el sistema de diseño, pero es un cambio menor
+pendiente para sesión futura.
 
 ## Para hacer el deploy
 
@@ -60,30 +87,22 @@ npm run build        # genera dist/
 ```
 
 Subir el contenido de `dist/` al servidor de santjoans.es (raíz del dominio).
-El fichero `dist/index.html` usa rutas relativas (`./assets/...`) gracias a `base: './'` en vite.config.ts.
 
 ### Estructura del dist/ generado
+
 ```
 dist/
-  index.html           (0.52 KB)
+  index.html           (~0.8 KB)
   assets/
-    index-*.js         (220 KB gzip: 69 KB)
-    index-*.css        (2.8 KB gzip: 0.97 KB)
+    index-*.js         (~221 KB / gzip: ~70 KB)
+    index-*.css        (~8 KB / gzip: ~2 KB)
   piezes/
     piezes.json        (754 piezas)
-    60/{main,center}/  (364 + 70 tiles)
-    360/{main,center}/ (364 + 70 tiles)
-    550/{main,center}/ (364 + 70 tiles)
-  ui/                  (9 iconos PNG)
+    60/{main,center}/  (364 + 70 tiles JPG)
+    360/{main,center}/ (364 + 70 tiles JPG)
+    550/{main,center}/ (364 + 70 tiles JPG)
   presentation/        (17 imágenes)
-  bkg.png, grano.png, miniatura.png
+  proyecto/            (proyecto.html + CSS/JS + 4 fotos + 7 PDFs)
+  miniatura.png        (minimapa)
+  favicon.svg
 ```
-
-## Fixes en Fase 4 y Fase 5
-
-**Fase 4:**
-- `Navigator.tsx` + `index.css`: `.navigator-page-box { width: fit-content }` — el contenedor se adapta al canvas (820–1450px según resolución)
-- `PreviewWidget.tsx`: `handlePointerDown` actualiza posición inmediatamente (un click sin drag ya mueve el viewport)
-
-**Fase 5:**
-- `npx playwright install firefox` para tests cross-browser en CI/CD futuro

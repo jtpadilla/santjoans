@@ -244,9 +244,14 @@ El catálogo de piezas (originalmente en XML) se convierte a JSON en tiempo de b
 eliminando cualquier procesamiento en el servidor.
 El resultado es un bundle de aproximadamente 70 KB (comprimido) que se sirve como sitio completamente estático.</p>
 <p><b>Fidelidad.</b> El motor de render sigue siendo Canvas 2D, reproduciendo el mismo sistema de coordenadas en milímetros
-que usaba GWT internamente. El algoritmo de hit-testing (detección de qué pieza se toca al hacer doble clic) fue portado
+que usaba GWT internamente. El algoritmo de hit-testing (detección de qué pieza se toca al hacer doble clic o tap) fue portado
 función a función desde el Java original, incluyendo el truncado entero de divisiones que es crítico para la precisión
 del resultado. El comportamiento visual y de interacción —zoom, pan, popup de pieza, minimapa, drag— es idéntico al original.</p>
+<p><b>Novedades respecto al original.</b> La nueva versión añade funcionalidades que la tecnología de 2011 no permitía:
+soporte táctil completo (arrastre con un dedo, pinch-to-zoom con dos dedos, tap para abrir el popup de una pieza),
+diseño adaptable (<i>responsive</i>) que ajusta el tamaño del canvas al viewport y reacciona a los cambios de orientación
+del dispositivo, y un rediseño visual coherente con tipografía moderna y paleta de colores inspirada en la cerámica
+mediterránea.</p>
 <p><b>Proceso.</b> La migración fue ejecutada utilizando <a href="https://claude.ai/code" target="_blank">Claude Code</a>
 (herramienta de programación asistida por IA de <a href="https://www.anthropic.com/" target="_blank">Anthropic</a>).
 Claude Code analizó el código Java original, diseñó la arquitectura TypeScript equivalente y generó el código de cada módulo
