@@ -29,13 +29,25 @@ export function Viewer({ onEngineReady }: Props) {
         engine.handleResize()
       }
     }
+    function onVisibilityChange() {
+      if (document.visibilityState === 'visible') {
+        engine.invalidate()
+      }
+    }
+    function onPageShow() {
+      engine.invalidate()
+    }
     window.addEventListener('resize', onResize)
     window.addEventListener('orientationchange', onResize)
+    document.addEventListener('visibilitychange', onVisibilityChange)
+    window.addEventListener('pageshow', onPageShow)
 
     return () => {
       detach()
       window.removeEventListener('resize', onResize)
       window.removeEventListener('orientationchange', onResize)
+      document.removeEventListener('visibilitychange', onVisibilityChange)
+      window.removeEventListener('pageshow', onPageShow)
     }
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
 

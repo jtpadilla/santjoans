@@ -1,6 +1,6 @@
 # Estado actual del proyecto
 
-    **Última actualización**: 2026-05-25 (Fix canvas negro + RWD proyecto + GitHub Pages)
+    **Última actualización**: 2026-05-27 (Fix canvas negro al volver de background en móvil)
 
 ## Resumen rápido
 
@@ -18,6 +18,7 @@
 | 9 — GitHub Pages | ✅ COMPLETA | Deploy automático vía GitHub Actions en jtpadilla/santjoans |
 | 10 — RWD proyecto.html | ✅ COMPLETA | CSS fluido + viewport meta tag en los 3 HTML estáticos |
 | 11 — Fix canvas negro | ✅ COMPLETA | Race condition React/motor eliminada; motor propietario de canvas.width/height |
+| 12 — Fix canvas negro en background | ✅ COMPLETA | `visibilitychange` + `pageshow` → `engine.invalidate()` repinta al volver del background |
 
 ## Funcionalidades implementadas
 
@@ -94,6 +95,12 @@ actualizarse a cobalto para seguir el sistema de diseño, pero es un cambio meno
 pendiente para sesión futura.
 
 ## Issues resueltos (historial)
+
+### Canvas en negro al volver de background (iOS Safari) ← RESUELTO 2026-05-27
+El SO/navegador descarta el bitmap del canvas cuando la pestaña queda en background.
+La app no escuchaba `visibilitychange` ni `pageshow`, así que al volver nadie repintaba.
+Solución: `MosaicEngine.invalidate()` (público, llama a `redraw()` sin tocar canvas.width/height)
+y dos listeners en `Viewer.tsx`: `visibilitychange` + `pageshow`.
 
 ### Canvas en negro tras rotación / resize ← RESUELTO 2026-05-25
 Race condition: `onResize` llamaba `engine.handleResize()` (escribe canvas.width/height + transform + redraw)

@@ -171,6 +171,10 @@ export class MosaicEngine {
     this.notifyStore()
   }
 
+  invalidate(): void {
+    this.redraw()
+  }
+
   getZoomIdx(): ZoomModeIdx { return this.zoomIdx }
   getStartX(): number { return this.startX }
   getStartY(): number { return this.startY }
