@@ -1,6 +1,6 @@
 # Estado actual del proyecto
 
-    **Última actualización**: 2026-05-27 (Fix canvas negro al volver de background en móvil)
+    **Última actualización**: 2026-08-30 (Chino simplificado como cuarto idioma)
 
 ## Resumen rápido
 
@@ -14,11 +14,12 @@
 | 5 — Cross-browser y deploy | ✅ COMPLETA | Chrome + Firefox verificados; build de producción OK |
 | 6 — Rediseño estético | ✅ COMPLETA | Patrimonio mediterráneo: crema/cobalto/ocre, Google Fonts |
 | 7 — Touch + RWD | ✅ COMPLETA | Pan, pinch-zoom, tap-pick, layout fluido, media queries |
-| 8 — Internacionalización | ✅ COMPLETA | ES/CA/EN; selector en presentación; proyecto.*.html |
+| 8 — Internacionalización | ✅ COMPLETA | ES/CA/EN/ZH; selector en presentación; proyecto.*.html |
 | 9 — GitHub Pages | ✅ COMPLETA | Deploy automático vía GitHub Actions en jtpadilla/santjoans |
 | 10 — RWD proyecto.html | ✅ COMPLETA | CSS fluido + viewport meta tag en los 3 HTML estáticos |
 | 11 — Fix canvas negro | ✅ COMPLETA | Race condition React/motor eliminada; motor propietario de canvas.width/height |
 | 12 — Fix canvas negro en background | ✅ COMPLETA | `visibilitychange` + `pageshow` → `engine.invalidate()` repinta al volver del background |
+| 13 — Chino simplificado | ✅ COMPLETA | Locale `zh` (lang `zh-Hans`); UI, presentación y proyecto.zh.html; fallbacks CJK |
 
 ## Funcionalidades implementadas
 
@@ -45,12 +46,19 @@
 - ✅ Barra de control con `flex-wrap` (fluye a segunda fila si no cabe)
 - ✅ Dos breakpoints CSS: 600 px y 400 px
 
-### Internacionalización (ES/CA/EN)
-- ✅ Selector de idioma (tres botones ES/CA/EN) en cabecera de la pantalla de presentación
-- ✅ Preferencia persistida en `localStorage`; inglés por defecto es español
+### Internacionalización (ES/CA/EN/ZH)
+- ✅ Selector de idioma (cuatro botones ES/CA/EN/中文) en cabecera de la pantalla de presentación
+- ✅ Preferencia persistida en `localStorage`; idioma por defecto es español
 - ✅ Toda la app React traducida: título, loading, botón de entrada, botones de dirección/zoom/ayuda, popup de ayuda
-- ✅ Cuerpo largo de la presentación en tres idiomas como JSX en `src/i18n/presentationContent/`
-- ✅ Documento estático `proyecto.html` → tres ficheros hermanos (`proyecto.es.html`, `proyecto.ca.html`, `proyecto.en.html`)
+- ✅ Cuerpo largo de la presentación en cuatro idiomas como JSX en `src/i18n/presentationContent/`
+- ✅ Documento estático `proyecto.html` → cuatro ficheros hermanos (`proyecto.es.html`, `proyecto.ca.html`, `proyecto.en.html`, `proyecto.zh.html`)
+- ✅ Chino simplificado (2026-08-30): código interno `zh`, `lang="zh-Hans"` (mapa `HTML_LANG` en `i18n/types.ts`);
+  mismas convenciones que el proyecto hermano ramblacelumbres (puntuación de ancho completo, espacio entre
+  ideogramas y texto latino, topónimos y nombres propios en latín, registro sobrio: nadie de la familia puede revisarlo)
+- ⚠️ En chino, un salto de línea entre ideogramas se renderiza como espacio (JSX siempre; HTML en Firefox).
+  Por eso `zh.tsx` y `proyecto.zh.html` llevan cada párrafo en una sola línea. No reformatear.
+- ✅ `--font-serif` / `--font-sans` llevan fallbacks CJK (Songti/PingFang, Noto CJK, Microsoft YaHei);
+  Cormorant e Inter siguen resolviendo los glifos latinos
 - ✅ Redirección legacy: `proyecto.html` → `proyecto.es.html` vía meta refresh
 - ✅ Selector de idioma dentro de cada documento estático (paleta cobalto, `aria-current="page"`)
 - ✅ El enlace «Información del proyecto» apunta a `proyecto.${locale}.html`

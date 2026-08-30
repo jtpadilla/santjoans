@@ -113,8 +113,10 @@ santjoans-web/src/
   loader/           carga asíncrona: imageLoader, transaction, taskScheduler, syncPiezeLoader
   store/            mosaicStore.ts (Zustand)
   hooks/            useHashRoute.ts
+  i18n/             types.ts (Locale es|ca|en|zh), store.ts, messages.ts,
+                    presentationContent/{es,ca,en,zh}.tsx
   components/
-    common/         PopupOverlay
+    common/         PopupOverlay, LanguageSelector
     presentation/   Presentation (pantalla de bienvenida)
     navigator/      Navigator, Viewer, DirectionWidget, ZoomWidget,
                     PreviewWidget, PiezePopup, HelpPopup,
@@ -140,7 +142,8 @@ santjoans-web/public/
     550/{main,center}/*.jpg   364+70 tiles a 550px
   presentation/*.png/jpg     17 imágenes de la pantalla de bienvenida
   proyecto/
-    proyecto.html             documento «Información del proyecto» (enlazado desde Presentation.tsx)
+    proyecto.{es,ca,en,zh}.html  documento «Información del proyecto» por idioma (enlazado desde Presentation.tsx)
+    proyecto.html             redirección legacy → proyecto.es.html
     proyecto.css              estilos del documento (misma paleta que la app)
     thumbnailviewer.*         visor de thumbnails (Dynamic Drive, 2011)
     *.jpg                     4 fotos de los participantes
