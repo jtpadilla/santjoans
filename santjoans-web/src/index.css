@@ -11,8 +11,8 @@
   --color-ochre:    #b8843d;
   --color-shadow:   rgba(42, 31, 20, 0.12);
 
-  --font-serif: 'Cormorant Garamond', 'Times New Roman', serif;
-  --font-sans:  'Inter', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Cormorant Garamond', 'Times New Roman', 'Songti SC', 'Noto Serif CJK SC', 'Source Han Serif SC', 'SimSun', serif;
+  --font-sans:  'Inter', system-ui, -apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Source Han Sans SC', 'Microsoft YaHei', sans-serif;
 
   --fs-xs:  0.8125rem;
   --fs-sm:  0.9375rem;

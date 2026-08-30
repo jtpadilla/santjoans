@@ -92,4 +92,27 @@ const en: Messages = {
   helpClose:  'Close',
 }
 
-export const messages: Record<Locale, Messages> = { es, ca, en }
+const zh: Messages = {
+  appTitle:         'Santjoans 宫的动物纹样瓷砖',
+  loading:          '正在加载瓷砖…',
+  loadingWithCount: (n) => `正在加载瓷砖…（剩余 ${n} 块）`,
+  enterMural:       '查看地面',
+  infoProject:      '项目信息',
+  altUp:     '上',
+  altDown:   '下',
+  altLeft:   '左',
+  altRight:  '右',
+  altHome:   '初始位置',
+  altZoomIn:  '放大',
+  altZoomOut: '缩小',
+  altHelp:   '帮助',
+  helpTitle:  '操作说明',
+  helpItem1:  '使用方向按钮移动马赛克。',
+  helpItem2:  '使用缩放按钮（+/−）放大或缩小。',
+  helpItem3:  '用鼠标拖动马赛克即可移动。',
+  helpItem4:  '双击某块瓷砖可查看细节。',
+  helpItem5:  '拖动小地图中的矩形可改变位置。',
+  helpClose:  '关闭',
+}
+
+export const messages: Record<Locale, Messages> = { es, ca, en, zh }
