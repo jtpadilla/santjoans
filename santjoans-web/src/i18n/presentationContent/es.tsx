@@ -14,7 +14,7 @@ export function contentEs({ showLandscape, showPortrait, showFour }: Handlers): 
           src="./presentation/palacio_small.png"
           alt="Palacio de Santjoans"
           className="presentation-img-left"
-          onClick={() => showLandscape('./presentation/palacio_long.png')}
+          onClick={() => showLandscape('./presentation/palacio_long.jpg')}
         />
         <p>El palacio de Santjoans está situado en el centro de <a href="http://www.cinctorres.es" target="_blank" rel="noreferrer">Cinctorres</a>,
         en la calle Sol de la Vila y esquina con la Plaza Vieja donde destaca como edificio civil
@@ -49,31 +49,31 @@ export function contentEs({ showLandscape, showPortrait, showFour }: Handlers): 
           src="./presentation/piezas_small.png"
           alt="Piezas"
           className="presentation-img-left"
-          onClick={() => showPortrait('./presentation/piezas_long.png')}
+          onClick={() => showPortrait('./presentation/piezas_long.jpg')}
         />
         <p>A la <b>planta superior</b> se accede mediante una escalera con madera ricamente trabajada,
         la cual está rodeada por los{' '}
           <span
             className="presentation-link"
             onClick={() => showFour([
-              './presentation/escudo1_long.png',
-              './presentation/escudo2_long.png',
-              './presentation/escudo3_long.png',
-              './presentation/escudo4_long.png',
+              './presentation/escudo1_long.jpg',
+              './presentation/escudo2_long.jpg',
+              './presentation/escudo3_long.jpg',
+              './presentation/escudo4_long.jpg',
             ])}
           >escudos heráldicos en policromía</span>{' '}
         de los diversos habitantes que allí han vivido.</p>
         <p>En el techo de la escalera encontramos{' '}
           <span
             className="presentation-link"
-            onClick={() => showLandscape('./presentation/escudo0_long.png')}
+            onClick={() => showLandscape('./presentation/escudo0_long.jpg')}
           >otro escudo</span>{' '}
         de forma ovoidal con las diferentes armas de todas las ramas de la familia
         en diferentes épocas y que es muy interesante.</p>
         <p>En la antesala del salón noble se aprecia un retablo de cerámica en el pavimento, del que faltan varias piezas, que bien puede
         ser la imagen de <a href="http://es.wikipedia.org/wiki/Luis_Bertr%C3%A1n" target="_blank" rel="noreferrer">San Luis Beltrán</a>.
         En un lado del retablo se ve la figura de un{' '}
-          <span className="presentation-link" onClick={() => showPortrait('./presentation/indio.png')}>indio en oración</span>.
+          <span className="presentation-link" onClick={() => showPortrait('./presentation/indio.jpg')}>indio en oración</span>.
         </p>
         <p>El salón principal está cubierto por un pavimento decorado con figuras zoo-mórficas. En el centro,
         como un retablo, el escudo heráldico con las armas de Sanjoan y Sousa, éste último de origen portugués.

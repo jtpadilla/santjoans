@@ -14,7 +14,7 @@ export function contentEn({ showLandscape, showPortrait, showFour }: Handlers): 
           src="./presentation/palacio_small.png"
           alt="Santjoans Palace"
           className="presentation-img-left"
-          onClick={() => showLandscape('./presentation/palacio_long.png')}
+          onClick={() => showLandscape('./presentation/palacio_long.jpg')}
         />
         <p>The Santjoans Palace is located in the heart of <a href="http://www.cinctorres.es" target="_blank" rel="noreferrer">Cinctorres</a>,
         on Carrer del Sol de la Vila, at the corner of the old town square. It stands out as a noble
@@ -49,31 +49,31 @@ export function contentEn({ showLandscape, showPortrait, showFour }: Handlers): 
           src="./presentation/piezas_small.png"
           alt="Tiles"
           className="presentation-img-left"
-          onClick={() => showPortrait('./presentation/piezas_long.png')}
+          onClick={() => showPortrait('./presentation/piezas_long.jpg')}
         />
         <p>The <b>upper floor</b> is reached via a richly carved wooden staircase,
         surrounded by the{' '}
           <span
             className="presentation-link"
             onClick={() => showFour([
-              './presentation/escudo1_long.png',
-              './presentation/escudo2_long.png',
-              './presentation/escudo3_long.png',
-              './presentation/escudo4_long.png',
+              './presentation/escudo1_long.jpg',
+              './presentation/escudo2_long.jpg',
+              './presentation/escudo3_long.jpg',
+              './presentation/escudo4_long.jpg',
             ])}
           >polychrome heraldic shields</span>{' '}
         of the various families who lived there.</p>
         <p>On the ceiling above the staircase there is{' '}
           <span
             className="presentation-link"
-            onClick={() => showLandscape('./presentation/escudo0_long.png')}
+            onClick={() => showLandscape('./presentation/escudo0_long.jpg')}
           >another shield</span>,{' '}
         oval in shape, displaying the arms of all branches of the family
         across different eras — a very interesting piece.</p>
         <p>In the antechamber of the main hall there is a ceramic altarpiece in the floor, with several tiles missing, believed to depict{' '}
         <a href="http://es.wikipedia.org/wiki/Luis_Bertr%C3%A1n" target="_blank" rel="noreferrer">Saint Louis Bertrand</a>.
         On one side of the altarpiece the figure of a{' '}
-          <span className="presentation-link" onClick={() => showPortrait('./presentation/indio.png')}>Native American in prayer</span>{' '}
+          <span className="presentation-link" onClick={() => showPortrait('./presentation/indio.jpg')}>Native American in prayer</span>{' '}
         is visible.
         </p>
         <p>The main hall is covered by a floor decorated with zoo-morphic figures. At the centre,

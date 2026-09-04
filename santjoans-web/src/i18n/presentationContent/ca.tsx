@@ -14,7 +14,7 @@ export function contentCa({ showLandscape, showPortrait, showFour }: Handlers): 
           src="./presentation/palacio_small.png"
           alt="Palau de Santjoans"
           className="presentation-img-left"
-          onClick={() => showLandscape('./presentation/palacio_long.png')}
+          onClick={() => showLandscape('./presentation/palacio_long.jpg')}
         />
         <p>El palau de Santjoans està situat al centre de <a href="http://www.cinctorres.es" target="_blank" rel="noreferrer">Cinctorres</a>,
         al carrer Sol de la Vila i cantonada amb la Plaça Vella on destaca com a edifici civil
@@ -49,31 +49,31 @@ export function contentCa({ showLandscape, showPortrait, showFour }: Handlers): 
           src="./presentation/piezas_small.png"
           alt="Peces"
           className="presentation-img-left"
-          onClick={() => showPortrait('./presentation/piezas_long.png')}
+          onClick={() => showPortrait('./presentation/piezas_long.jpg')}
         />
         <p>A la <b>planta superior</b> s'accedeix mitjançant una escala amb fusta riquement treballada,
         la qual està envoltada pels{' '}
           <span
             className="presentation-link"
             onClick={() => showFour([
-              './presentation/escudo1_long.png',
-              './presentation/escudo2_long.png',
-              './presentation/escudo3_long.png',
-              './presentation/escudo4_long.png',
+              './presentation/escudo1_long.jpg',
+              './presentation/escudo2_long.jpg',
+              './presentation/escudo3_long.jpg',
+              './presentation/escudo4_long.jpg',
             ])}
           >escuts heràldics en policromia</span>{' '}
         dels diversos habitants que hi han viscut.</p>
         <p>Al sostre de l'escala trobem{' '}
           <span
             className="presentation-link"
-            onClick={() => showLandscape('./presentation/escudo0_long.png')}
+            onClick={() => showLandscape('./presentation/escudo0_long.jpg')}
           >un altre escut</span>{' '}
         de forma ovoidea amb les diferents armes de totes les branques de la família
         en diferents èpoques i que és molt interessant.</p>
         <p>A l'antesala del saló noble s'aprecia un retaule de ceràmica en el paviment, del que falten diverses peces, que bé pot
         ser la imatge de <a href="http://es.wikipedia.org/wiki/Luis_Bertr%C3%A1n" target="_blank" rel="noreferrer">Sant Lluís Bertran</a>.
         A un costat del retaule es veu la figura d'un{' '}
-          <span className="presentation-link" onClick={() => showPortrait('./presentation/indio.png')}>indio en oració</span>.
+          <span className="presentation-link" onClick={() => showPortrait('./presentation/indio.jpg')}>indio en oració</span>.
         </p>
         <p>El saló principal està cobert per un paviment decorat amb figures zoo-mòrfiques. Al centre,
         com un retaule, l'escut heràldic amb les armes de Sanjoan i Sousa, aquest últim d'origen portuguès.
