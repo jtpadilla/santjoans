@@ -252,6 +252,8 @@ hr { display: none; }
 
 .presentation-footer-links {
   display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
   justify-content: flex-start;
   padding-top: var(--sp-4);
   margin-top: var(--sp-2);

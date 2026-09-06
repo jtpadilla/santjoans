@@ -6,6 +6,7 @@ export interface Messages {
   loadingWithCount: (n: number) => string
   enterMural: string
   infoProject: string
+  authorIndex: string
   altUp: string
   altDown: string
   altLeft: string
@@ -29,6 +30,7 @@ const es: Messages = {
   loadingWithCount: (n) => `Cargando piezas… (${n} restantes)`,
   enterMural:       'Ver pavimento',
   infoProject:      'Información del proyecto',
+  authorIndex:      'Toda la obra de la autora',
   altUp:     'Arriba',
   altDown:   'Abajo',
   altLeft:   'Izquierda',
@@ -52,6 +54,7 @@ const ca: Messages = {
   loadingWithCount: (n) => `Carregant peces… (${n} restants)`,
   enterMural:       'Veure el paviment',
   infoProject:      'Informació del projecte',
+  authorIndex:      'Tota l’obra de l’autora',
   altUp:     'Amunt',
   altDown:   'Avall',
   altLeft:   'Esquerra',
@@ -75,6 +78,7 @@ const en: Messages = {
   loadingWithCount: (n) => `Loading tiles… (${n} remaining)`,
   enterMural:       'View floor',
   infoProject:      'Project information',
+  authorIndex:      'All the author’s work',
   altUp:     'Up',
   altDown:   'Down',
   altLeft:   'Left',
@@ -98,6 +102,7 @@ const zh: Messages = {
   loadingWithCount: (n) => `正在加载瓷砖…（剩余 ${n} 块）`,
   enterMural:       '查看地面',
   infoProject:      '项目信息',
+  authorIndex:      '作者的全部作品',
   altUp:     '上',
   altDown:   '下',
   altLeft:   '左',

@@ -49,6 +49,14 @@ export function Presentation({ loadingRemaining, onEnterNavigator }: Props) {
         <a href={`./proyecto/proyecto.${locale}.html`} target="_blank" rel="noreferrer" className="presentation-info-link">
           {m.infoProject}
         </a>
+        <a
+          href={`https://jtpadilla.github.io/franciscajulianquerol/${locale === 'ca' ? 'ca/' : ''}`}
+          target="_blank"
+          rel="noreferrer"
+          className="presentation-info-link"
+        >
+          {m.authorIndex}
+        </a>
       </div>
 
       {popup.mode === 'landscape' && popup.src && (
