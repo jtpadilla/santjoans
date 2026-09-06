@@ -121,12 +121,12 @@ el motor inicializa en el constructor y es el único propietario de canvas.width
 ### GitHub Pages (activo)
 
 ```bash
-git push origin rewrite-react:master   # dispara el workflow de GitHub Actions
+git push origin rewrite-react:main     # dispara el workflow de GitHub Actions
 ```
 
 URL pública: https://jtpadilla.github.io/santjoans/
 
-**Nota**: solo pushes a `master` despliegan. El workflow escucha `rewrite-react` pero
+**Nota**: solo pushes a `main` (antes `master`, renombrada el 2026-09-06) despliegan. El workflow escucha `rewrite-react` pero
 GitHub Pages rechaza el deploy desde esa rama (regla de protección del entorno).
 
 ### Deploy manual en santjoans.es
