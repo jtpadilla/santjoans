@@ -90,6 +90,21 @@ en `public/piezes/piezes.json` y el build funciona igualmente.
 
 ---
 
+## Git y publicación
+
+- Rama principal: **`main`**, como en el resto de repositorios de la autora. Se llamó `master` hasta el
+  2026-09-06, cuando se renombró para unificar la familia; `master` ya no existe en GitHub.
+- Cada push a `main` dispara `.github/workflows/deploy.yml` (build en `santjoans-web/` y publicación en
+  GitHub Pages con origen «GitHub Actions»), que sirve **https://santjoans.es/**.
+- El entorno `github-pages` del repositorio solo admite despliegues desde `main` (política de ramas del
+  entorno). Si se vuelve a renombrar la rama, hay que cambiar tres cosas a la vez: el disparador del
+  workflow, la política del entorno y la rama por defecto del repositorio; si no, el `deploy` falla
+  aunque el `build` pase.
+- La familia de sitios: la portada **franciscajulianquerol** (https://jtpadilla.github.io/franciscajulianquerol/)
+  presenta a la autora y enlaza a los seis proyectos; la presentación de este visor enlaza de vuelta.
+
+---
+
 ## Stack y dependencias clave
 
 | Paquete | Versión | Para qué |
