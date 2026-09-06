@@ -100,7 +100,7 @@ en `public/piezes/piezes.json` y el build funciona igualmente.
   entorno). Si se vuelve a renombrar la rama, hay que cambiar tres cosas a la vez: el disparador del
   workflow, la política del entorno y la rama por defecto del repositorio; si no, el `deploy` falla
   aunque el `build` pase.
-- La familia de sitios: la portada **franciscajulianquerol** (https://jtpadilla.github.io/franciscajulianquerol/)
+- La familia de sitios: la portada **franciscajulianquerol** (https://franciscajulianquerol.es/)
   presenta a la autora y enlaza a los seis proyectos; la presentación de este visor enlaza de vuelta.
 
 ---

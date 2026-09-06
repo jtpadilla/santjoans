@@ -50,7 +50,7 @@ export function Presentation({ loadingRemaining, onEnterNavigator }: Props) {
           {m.infoProject}
         </a>
         <a
-          href={`https://jtpadilla.github.io/franciscajulianquerol/${locale === 'ca' ? 'ca/' : ''}`}
+          href={`https://franciscajulianquerol.es/${locale === 'ca' ? 'ca/' : ''}`}
           target="_blank"
           rel="noreferrer"
           className="presentation-info-link"
